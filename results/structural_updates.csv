@@ -1,0 +1,7 @@
+n,operation,version_update_ms,new_count,new_root
+2000,insert,86.492447,2001,76cd23fe95aabc98
+2000,delete,85.164328,1999,22e6f0b9bc54fa62
+2000,key_update,88.040303,2000,fd9454d3b8aaf2d4
+5000,insert,206.235239,5001,e3163d4fa6ac93ca
+5000,delete,203.492258,4999,6eeb2fde0d33330b
+5000,key_update,215.398385,5000,89dbab9135a5e10c

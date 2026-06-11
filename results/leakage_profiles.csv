@@ -1,0 +1,6 @@
+plan,disclosed_fields,allowed,excess_fields,reason
+policy_cube_summary,"('category', 'count', 'range_density', 'region', 'sensitivity', 'sum(amount)', 'tenant')",True,(),projection-compatible
+prefix_cube_view,"('category', 'count', 'prefix_epoch', 'region', 'sensitivity', 'sum(amount)', 'tenant')",True,(),projection-compatible
+complete_open_scan,"('amount', 'category', 'cust_id', 'day', 'id', 'proof_path', 'region', 'score', 'sensitivity', 'tenant')",False,"('amount', 'cust_id', 'day', 'id', 'score')",opens-fields-outside-release-contract
+topk_accumulator,"('cutoff', 'id', 'proof_path', 'score', 'tie_count')",False,"('id', 'score')",opens-fields-outside-release-contract
+join_witness,"('amount', 'category', 'cust_id', 'dimension_key', 'dimension_status', 'fact_id', 'proof_path')",False,"('amount', 'cust_id', 'dimension_key', 'fact_id')",opens-fields-outside-release-contract

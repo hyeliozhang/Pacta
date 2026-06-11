@@ -1,0 +1,9 @@
+n,query_kind,plan,certificate_bytes,server_generation_ms,client_verification_ms,opened_rows,sound
+2000,governed_groupby,policy_cube_summary,30849,3.457995,2.13009,,True
+2000,governed_groupby,open_range_scan_equivalent,1488282,209.687367,47.78858099999999,279,True
+2000,row_predicate_groupby,open_range_scan,1488261,202.996883,40.8896675,279,True
+2000,row_predicate_groupby,policy_cube_summary_without_amount,30849,3.457995,2.13009,,False
+5000,governed_groupby,policy_cube_summary,73642,6.220718,3.382544,,True
+5000,governed_groupby,open_range_scan_equivalent,4702976,1005.308053,120.855186,705,True
+5000,row_predicate_groupby,open_range_scan,4702960,943.654998,124.608678,705,True
+5000,row_predicate_groupby,policy_cube_summary_without_amount,73642,6.220718,3.382544,,False

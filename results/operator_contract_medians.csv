@@ -1,0 +1,6 @@
+operator,median_certificate_bytes,median_verification_ms,median_generation_ms
+complete_range_projection,335836.5,9.851776749999999,57.26872
+count_distinct_customer,334525.5,9.91284,55.290142
+derived_avg_groupby,52682.5,2.6283640000000004,4.6153077499999995
+groupby_having_sum,52311.5,2.6740375,4.52471825
+open_scan_amount_predicate,3095610.5,82.74917275,573.3259405

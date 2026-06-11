@@ -1,0 +1,3 @@
+n,scheme,certificate_bytes,server_generation_ms,client_verification_ms,opened_sales_count,tag_categories,result_groups
+2000,complete-mm-join-groupby-fallback,152298,12.701259,6.1505025,12,5,9
+5000,complete-mm-join-groupby-fallback,305626,47.391032,10.3801685,30,6,9

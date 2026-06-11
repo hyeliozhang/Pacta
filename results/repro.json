@@ -1,0 +1,38 @@
+{
+  "fanout": 16,
+  "generated_by": "deterministic_seeded_reproduction",
+  "hash": "sha256",
+  "policy_complexities": [
+    1,
+    3,
+    5
+  ],
+  "public_profiles": [
+    "public_gapminder",
+    "public_apple_stock"
+  ],
+  "python": [
+    3,
+    13,
+    5
+  ],
+  "scale": "paper",
+  "seed": 2027,
+  "selectivities": [
+    0.01,
+    0.05,
+    0.2
+  ],
+  "sizes": [
+    2000,
+    5000
+  ],
+  "stress_sizes": [],
+  "workload_profiles": [
+    "dashboard_sales",
+    "tpch_lineitem_like",
+    "open_data_permits",
+    "health_release",
+    "finance_audit"
+  ]
+}

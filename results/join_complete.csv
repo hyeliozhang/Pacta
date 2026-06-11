@@ -1,0 +1,3 @@
+n,scheme,certificate_bytes,server_generation_ms,client_verification_ms,opened_sales_count,result_groups
+2000,complete-fk-join-groupby-fallback,159743,12.033127,5.016735499999999,12,3
+5000,complete-fk-join-groupby-fallback,397345,49.331951,12.723320999999999,30,4

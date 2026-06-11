@@ -1,0 +1,2 @@
+case,same_policy_cube_signature,same_policy_cube_digest,different_predicate_answer,summary_digest,answer_digest_world_a,answer_digest_world_b,world_a_amounts,world_b_amounts,threshold,required_obligation
+unsummarized_amount_predicate,True,True,True,ea39f4f9a54733e6,1de3ca5bd7c50f86,c082229c3df03e14,"100,200","150,150",150,opened_row_multiset_or_amount_histogram

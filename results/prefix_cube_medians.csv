@@ -1,0 +1,2 @@
+scheme,n,median_certificate_bytes,median_generation_ms,median_verification_ms,median_view_build_ms,median_touched_prefixes_insert
+authenticated_prefix_cube_view,50000,23057.0,2.1559319999937543,2.88872400000173,1144.0146279999794,500.0

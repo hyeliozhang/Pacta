@@ -1,0 +1,5 @@
+query_kind,plan,sound,median_certificate_bytes,median_verification_ms,median_generation_ms
+governed_groupby,open_range_scan_equivalent,True,3095629.0,84.3218835,607.49771
+governed_groupby,policy_cube_summary,True,52245.5,2.756317,4.8393565
+row_predicate_groupby,open_range_scan,True,3095610.5,82.74917275,573.3259405
+row_predicate_groupby,policy_cube_summary_without_amount,False,52245.5,2.756317,4.8393565

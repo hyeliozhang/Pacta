@@ -1,0 +1,8 @@
+profile,median_certificate_bytes,median_verification_ms,median_generation_ms,median_authorized_rows,median_range_rows
+dashboard_sales,48700.0,2.052963,3.408732,12.0,217.0
+finance_audit,44065.0,2.425489,3.825107,18.0,183.0
+health_release,47220.0,2.3704530000000004,3.686418,21.0,206.0
+open_data_permits,58873.0,2.526661,3.631624,31.0,326.0
+public_apple_stock,11969.0,1.112115,1.215652,13.0,13.0
+public_gapminder,36595.0,1.829107,2.272473,12.0,142.0
+tpch_lineitem_like,56457.0,2.168345,3.734528,15.0,264.0

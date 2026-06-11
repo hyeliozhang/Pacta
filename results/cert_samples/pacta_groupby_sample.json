@@ -1,0 +1,3756 @@
+{
+  "fanout": 16,
+  "manifest": {
+    "policies": [
+      {
+        "policy_id": "p-tenant-4-audit-c3",
+        "predicate": {
+          "max_sensitivity": 2,
+          "projection": [
+            "category",
+            "count",
+            "sum_amount"
+          ],
+          "purpose": "audit-c3",
+          "regions": [
+            0,
+            1,
+            2
+          ],
+          "tenant": 4
+        },
+        "projection": [
+          "category",
+          "count",
+          "sum_amount"
+        ],
+        "purpose": "audit-c3",
+        "subject": "tenant-4",
+        "valid_from": 0,
+        "valid_to": 2147483647
+      }
+    ],
+    "version": 1
+  },
+  "owner_digest": {
+    "manifest_release_version": 1,
+    "manifest_root": "99cb599a8db6e06a40b0aa811f123fdd29a3a6b4aa4efa2667279e40547a7737",
+    "relation_descriptor_digest": "e2d82c94d5142b5aa7941ac7113de18fa582ac6cc00eaf3ac8b32247c9c52478",
+    "relation_root": "d35fbf38a5bd78f823c38c008317d13cc128e974831d5f437f63c611148bf823",
+    "relation_version": 1,
+    "version": 1
+  },
+  "policy_hash": "cd3d0e39563513425e7bdc80190e5dced23c0c106461d7d879a5857da52bd27c",
+  "proof": {
+    "children": [
+      {
+        "children": [
+          {
+            "count": 256,
+            "hash": "cf6b5743707979e0246a51c9fc702b67d47da7bda9ec9679f59f9b2e60f9b4d3",
+            "kind": "hash",
+            "max": 52,
+            "min": 0
+          },
+          {
+            "count": 256,
+            "hash": "be0582162034c713e8cef3fbbf2632161725f720a346b40faefc6f83fc8a4348",
+            "kind": "hash",
+            "max": 101,
+            "min": 52
+          },
+          {
+            "count": 256,
+            "hash": "21a4b90491f944546e17937a0c1cebc44f99e58e7c9b12e7ad9fd8e2e6ba98cb",
+            "kind": "hash",
+            "max": 151,
+            "min": 101
+          },
+          {
+            "count": 256,
+            "hash": "77409fe581f0bdbaccf4b2ac23c6cc93ceb1001e632655d996e2d03914d384ea",
+            "kind": "hash",
+            "max": 205,
+            "min": 151
+          },
+          {
+            "count": 256,
+            "hash": "cb0cba3cc3af958c951ede664ab70860ccb0282a1f85c25ce5dfa4925c9116da",
+            "kind": "hash",
+            "max": 256,
+            "min": 206
+          },
+          {
+            "count": 256,
+            "hash": "f85289d084be62d012663a5f0329310465e959c826cf84899c8089437618d2bf",
+            "kind": "hash",
+            "max": 302,
+            "min": 257
+          },
+          {
+            "count": 256,
+            "hash": "bb145aa1031236551daeabb4588afe0e1f94fa3284a2daf0bb4e331e6b716671",
+            "kind": "hash",
+            "max": 354,
+            "min": 302
+          },
+          {
+            "count": 256,
+            "hash": "ad00b29a3e6ffa8c315c74b05f96933ca84fbaf907f2d3ec65b72f5e0f29192f",
+            "kind": "hash",
+            "max": 403,
+            "min": 354
+          },
+          {
+            "children": [
+              {
+                "count": 16,
+                "hash": "c74a89d1fc7fb3b2d6f1aea785dc9052c0ceb3e29789d097ee445c402e123c45",
+                "kind": "hash",
+                "max": 407,
+                "min": 403
+              },
+              {
+                "count": 16,
+                "hash": "0bac47398135f4c549af0e85bc1e5cd73df9a7484753ad6cbd39dff7de168c7f",
+                "kind": "hash",
+                "max": 409,
+                "min": 407
+              },
+              {
+                "count": 16,
+                "hash": "75cb1292cf2e364d29f29c89a59968b911b8e15abe844c088e28be51ec616512",
+                "kind": "hash",
+                "max": 411,
+                "min": 409
+              },
+              {
+                "count": 16,
+                "hash": "d7b7a32c5c2801ed61fcdcc15e924a2a3015f1a83ffc810736f56d9b0cd76d7a",
+                "kind": "hash",
+                "max": 415,
+                "min": 411
+              },
+              {
+                "count": 16,
+                "hash": "657ad9b8ea1b308a760515264a173f1ef209108b5047766b57a3cdeccca3505a",
+                "kind": "hash",
+                "max": 419,
+                "min": 415
+              },
+              {
+                "count": 16,
+                "hash": "1ddb1ada715edfa9b7d004f8eaf181300b67282d2fa5a1d32443273deb420a6f",
+                "kind": "hash",
+                "max": 421,
+                "min": 419
+              },
+              {
+                "count": 16,
+                "hash": "bf7b6b61d765a05b6f7cc7c7037d884bf348b666a161818ee95839d9756b9041",
+                "kind": "hash",
+                "max": 424,
+                "min": 421
+              },
+              {
+                "count": 16,
+                "hash": "b54ede66bbe4723b57b23dc3583016bc2b880563047440ed1a9e86b047154d00",
+                "kind": "hash",
+                "max": 426,
+                "min": 424
+              },
+              {
+                "count": 16,
+                "hash": "2851231111c220eef0e617cb775a16f2f5bf51e7b290670112a7e8d05b2d4096",
+                "kind": "hash",
+                "max": 429,
+                "min": 426
+              },
+              {
+                "count": 16,
+                "hash": "cd7b00fb0dfc902947ed635e5c5dd1411fd9c4cf01acb12404f9834fb79df998",
+                "kind": "hash",
+                "max": 433,
+                "min": 430
+              },
+              {
+                "count": 16,
+                "hash": "da8cce9a42531a08b1a3b67e217511b9b9797945bf05853cb3ec75b3cb099ec9",
+                "kind": "hash",
+                "max": 436,
+                "min": 433
+              },
+              {
+                "count": 16,
+                "hash": "f0845aa9b79ec7eb149b10a1c3bb1819aee728a7977b251980cc0f0f85fc1790",
+                "kind": "hash",
+                "max": 438,
+                "min": 436
+              },
+              {
+                "children": [
+                  {
+                    "count": 1,
+                    "hash": "eb5e59248900f67700d683d7d7783c7ab5f9ed08d43fe1181160f30d5fc55744",
+                    "kind": "hash",
+                    "max": 438,
+                    "min": 438
+                  },
+                  {
+                    "count": 1,
+                    "hash": "c70b0200b65828138d0254fae6e43d0e73b46d9f1bf6e1303de8145cb444038c",
+                    "kind": "hash",
+                    "max": 439,
+                    "min": 439
+                  },
+                  {
+                    "count": 1,
+                    "hash": "9350dc63e4b80e4af5b8ab0c9691427d15997d0ea15be6ec0f2ed4faf01d2c6e",
+                    "kind": "hash",
+                    "max": 439,
+                    "min": 439
+                  },
+                  {
+                    "count": 1,
+                    "hash": "9a8b0f891f4dbd6d442aabb4fe82dc758f4fa43665403cc66f68a26f1b47de90",
+                    "kind": "hash",
+                    "max": 439,
+                    "min": 439
+                  },
+                  {
+                    "count": 1,
+                    "hash": "0cb6e712b110fa71910f200cf941da6633a990c92b738b1a2232696caeb8eed7",
+                    "kind": "hash",
+                    "max": 439,
+                    "min": 439
+                  },
+                  {
+                    "count": 1,
+                    "hash": "d48ab1233f6d27d2158a96eb7f920002a6453a31dcff611e50d7ba58887f299d",
+                    "kind": "hash",
+                    "max": 439,
+                    "min": 439
+                  },
+                  {
+                    "count": 1,
+                    "hash": "3c779156bfa348bd6b384aab630548bde168dcff8ac8f1d72d06b63ed66c9a32",
+                    "kind": "hash",
+                    "max": 439,
+                    "min": 439
+                  },
+                  {
+                    "count": 1,
+                    "hash": "d39c9730dcb6a4a409931a631002d99dace575451c0aacdf90fd7df73523e0bf",
+                    "kind": "hash",
+                    "max": 439,
+                    "min": 439
+                  },
+                  {
+                    "count": 1,
+                    "hash": "78732d97ae2824ed928093176c9c01bb5ccd55587954a6f907db0d8c9dae9ce8",
+                    "kind": "hash",
+                    "max": 439,
+                    "min": 439
+                  },
+                  {
+                    "count": 1,
+                    "hash": "13ec6292c2769de26279ea6a4eb333aa0785418de807a6afdb3a1af9761fb94f",
+                    "kind": "hash",
+                    "max": 439,
+                    "min": 439
+                  },
+                  {
+                    "count": 1,
+                    "hash": "8c2a870cb75ed5f3c3450a2429dd3a6560844e180ca60bc9f3a2c1d51f90750a",
+                    "kind": "cover",
+                    "max": 440,
+                    "min": 440,
+                    "record": {
+                      "amount": 58,
+                      "category": 1,
+                      "cust_id": 500041,
+                      "day": 440,
+                      "id": 139,
+                      "profile": "dashboard_sales",
+                      "region": 1,
+                      "score": 992577,
+                      "sensitivity": 2,
+                      "tenant": 5
+                    },
+                    "summary": {
+                      "5|2|1|1": [
+                        1,
+                        58,
+                        63629306981271592781366012519969222653
+                      ]
+                    },
+                    "summary_digest": "6c5d72a5b4d37ee2227d2c5e9aa53142243215f64f1b3487e6fa3dcadd7b658e"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "58f8db833b2aa860607429c5507be993e131e8f16c17921b1741346d1c489dd0",
+                    "kind": "cover",
+                    "max": 440,
+                    "min": 440,
+                    "record": {
+                      "amount": 117,
+                      "category": 2,
+                      "cust_id": 100109,
+                      "day": 440,
+                      "id": 3873,
+                      "profile": "dashboard_sales",
+                      "region": 2,
+                      "score": 991558,
+                      "sensitivity": 1,
+                      "tenant": 1
+                    },
+                    "summary": {
+                      "1|1|2|2": [
+                        1,
+                        117,
+                        135561399928165363225974273328548192695
+                      ]
+                    },
+                    "summary_digest": "12735e271d21fec3981ec102bcc99258fbd7b6df08d4e4362e640d70b57c7c15"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "d6b6ff397a22b31a31cf2af070afc29d4814a35095736419ad982c31f332c6c2",
+                    "kind": "cover",
+                    "max": 440,
+                    "min": 440,
+                    "record": {
+                      "amount": 46,
+                      "category": 2,
+                      "cust_id": 300143,
+                      "day": 440,
+                      "id": 4337,
+                      "profile": "dashboard_sales",
+                      "region": 4,
+                      "score": 990336,
+                      "sensitivity": 1,
+                      "tenant": 3
+                    },
+                    "summary": {
+                      "3|1|4|2": [
+                        1,
+                        46,
+                        112594333597257972593986486454790549104
+                      ]
+                    },
+                    "summary_digest": "22677a6ea6cb4cdf69ea8a943e981f1f95f43e68659ef4223169d8030354880e"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "bd73acbe36f2de8ef54d9e94b3b0fa6359f38f0100308657f09bec0fcbe4b460",
+                    "kind": "cover",
+                    "max": 441,
+                    "min": 441,
+                    "record": {
+                      "amount": 81,
+                      "category": 5,
+                      "cust_id": 82,
+                      "day": 441,
+                      "id": 1893,
+                      "profile": "dashboard_sales",
+                      "region": 3,
+                      "score": 993510,
+                      "sensitivity": 0,
+                      "tenant": 0
+                    },
+                    "summary": {
+                      "0|0|3|5": [
+                        1,
+                        81,
+                        8190749332494137734265511679948125492
+                      ]
+                    },
+                    "summary_digest": "170e9773ff5aed62631ee0323ecc59f876b14018ab2d41e3ec21289fce41b807"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "36b65436fd5ef3082fce1047e6e1205ec7aeba2aedba25abdf43fb25ed6e9706",
+                    "kind": "cover",
+                    "max": 441,
+                    "min": 441,
+                    "record": {
+                      "amount": 30,
+                      "category": 0,
+                      "cust_id": 52,
+                      "day": 441,
+                      "id": 2152,
+                      "profile": "dashboard_sales",
+                      "region": 0,
+                      "score": 990656,
+                      "sensitivity": 1,
+                      "tenant": 0
+                    },
+                    "summary": {
+                      "0|1|0|0": [
+                        1,
+                        30,
+                        169776547274905074501958847566424424220
+                      ]
+                    },
+                    "summary_digest": "826f797713b7b23fe5fd5a2926107344c35c60171bdaf24cd4ae3327a67957b9"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "12dcb0ca5380f3fbc0ee4fbe4d30c70c46a8a96e2c9cc9b377951667e26f6700",
+                    "kind": "cover",
+                    "max": 441,
+                    "min": 441,
+                    "record": {
+                      "amount": 112,
+                      "category": 3,
+                      "cust_id": 400129,
+                      "day": 441,
+                      "id": 2550,
+                      "profile": "dashboard_sales",
+                      "region": 1,
+                      "score": 993187,
+                      "sensitivity": 0,
+                      "tenant": 4
+                    },
+                    "summary": {
+                      "4|0|1|3": [
+                        1,
+                        112,
+                        115322023437274874845695191180092175098
+                      ]
+                    },
+                    "summary_digest": "762fedf0703ca95f8c7c45cf86ee42bcbe0c4984141fd8feb5837d71b9d8cfb3"
+                  }
+                ],
+                "count": 16,
+                "hash": "a9e967dece6aaee0e806cee3e4534aba66fc4ee499943412c6217ced1ff37e86",
+                "kind": "branch",
+                "max": 441,
+                "min": 438,
+                "summary_digest": "9132639c93e21595fa92ae844c5df25410b4ebc498277196dea173edcd548e1f"
+              },
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "1d2bb5f0a6ba03ec82b57bf704dfd8b19ff08b484783f070b685ba52a55bad4e",
+                    "max": 441,
+                    "min": 441
+                  },
+                  {
+                    "count": 1,
+                    "hash": "8c34cabfe4712f8f2e107417c6ad67dacd64ed081d15565ef06a7180468ff37e",
+                    "max": 441,
+                    "min": 441
+                  },
+                  {
+                    "count": 1,
+                    "hash": "b88bae3259d757ec519ea2a3fd600f39e2a0db1849c184ed91cebce11f6fd31e",
+                    "max": 441,
+                    "min": 441
+                  },
+                  {
+                    "count": 1,
+                    "hash": "81e74c249d5a0da6307a02124a9a23eb32c891b350a5c74015a26826b9a2defa",
+                    "max": 442,
+                    "min": 442
+                  },
+                  {
+                    "count": 1,
+                    "hash": "0e7870e7513bfab60581ffa89a4e8fcfb6496c9a6b67920d9c6989203f54d070",
+                    "max": 442,
+                    "min": 442
+                  },
+                  {
+                    "count": 1,
+                    "hash": "55ea31d3cedb66c666afd19a0325d39d4e7927b00568207e054a7e9e363944b7",
+                    "max": 442,
+                    "min": 442
+                  },
+                  {
+                    "count": 1,
+                    "hash": "3527303a5d1834df36ee69e4abb09fb26a9b423da943e9be51974a520cae8337",
+                    "max": 442,
+                    "min": 442
+                  },
+                  {
+                    "count": 1,
+                    "hash": "69269b604604d978f5a0137d13cdba21a801a116231a9c5490a37544db8bfea8",
+                    "max": 442,
+                    "min": 442
+                  },
+                  {
+                    "count": 1,
+                    "hash": "c0840d705881fb1b0abe7a49d1854dadea08399bb9f17bc1131b625b68803eb0",
+                    "max": 442,
+                    "min": 442
+                  },
+                  {
+                    "count": 1,
+                    "hash": "4c4d3550fc62f5187327df38ab159e8dc456e27989dd3b86a984563505a2438a",
+                    "max": 443,
+                    "min": 443
+                  },
+                  {
+                    "count": 1,
+                    "hash": "d5accc833ee4623619da70c523a6ad533848bd53c4a6d23a8892e7a98c9b26c2",
+                    "max": 443,
+                    "min": 443
+                  },
+                  {
+                    "count": 1,
+                    "hash": "cc52208f4ae2627e7e32777106a7da9541ad89fad8d54414f3ac6203b516572a",
+                    "max": 443,
+                    "min": 443
+                  },
+                  {
+                    "count": 1,
+                    "hash": "2529a9977000cf9b154534b56557031006b58ceaa20fb0957e282237db1c6e0d",
+                    "max": 443,
+                    "min": 443
+                  },
+                  {
+                    "count": 1,
+                    "hash": "9ba51cf79b6b445b6622a776251d01e5c8b8cf5dd03e878027c7793d946f46fb",
+                    "max": 443,
+                    "min": 443
+                  },
+                  {
+                    "count": 1,
+                    "hash": "6fc01e9f72d7b07354f70e0ecb02fa68f6c1b729d8b1d3b144adaa07f29fbcae",
+                    "max": 443,
+                    "min": 443
+                  },
+                  {
+                    "count": 1,
+                    "hash": "7522863ab0aeaa787aab612856bf182029c07885ff0c2fc9d33081ead4ba54db",
+                    "max": 443,
+                    "min": 443
+                  }
+                ],
+                "count": 16,
+                "hash": "3c632ab25052c0d6fd9c55a7a8436075f6837a45bfec77faea13ca7aaa8abc37",
+                "kind": "cover",
+                "max": 443,
+                "min": 441,
+                "summary": {
+                  "2|0|1|2": [
+                    1,
+                    177,
+                    68684860393763216139063875841384807556
+                  ],
+                  "2|0|2|0": [
+                    1,
+                    145,
+                    109482331702860583850642014600815421832
+                  ],
+                  "2|0|4|3": [
+                    1,
+                    104,
+                    105604102225762354560429638030838296311
+                  ],
+                  "2|1|3|1": [
+                    1,
+                    139,
+                    155476147930304710906583393139872697321
+                  ],
+                  "3|0|1|0": [
+                    1,
+                    133,
+                    25398049206708777985545873807787054015
+                  ],
+                  "3|1|0|2": [
+                    1,
+                    50,
+                    65220509469471832837094581097971163032
+                  ],
+                  "4|0|0|1": [
+                    1,
+                    203,
+                    125107322334946192155430973128055780078
+                  ],
+                  "4|1|0|4": [
+                    1,
+                    65,
+                    100401776292767854634757255308585525899
+                  ],
+                  "4|1|1|0": [
+                    1,
+                    13,
+                    75690986081178512838455292362925739354
+                  ],
+                  "4|1|1|1": [
+                    1,
+                    37,
+                    143662161115866855212526615653207852533
+                  ],
+                  "4|1|3|4": [
+                    1,
+                    119,
+                    7230521502075405612868877757345516050
+                  ],
+                  "4|2|3|1": [
+                    1,
+                    87,
+                    37408044364912758758930342855954163821
+                  ],
+                  "5|0|3|2": [
+                    1,
+                    102,
+                    74109404273977852458918672045028396539
+                  ],
+                  "5|0|4|0": [
+                    1,
+                    43,
+                    153318252120574513634524700876226629144
+                  ],
+                  "5|0|4|5": [
+                    1,
+                    182,
+                    41429372036815831286575005283761048148
+                  ],
+                  "5|1|2|1": [
+                    1,
+                    40,
+                    54037170611342189734490495130013679772
+                  ]
+                },
+                "summary_digest": "58642529179b6221220aa23a8de08a1ee8dd73246f9b90d30368a0c1dc11b4a1"
+              },
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "d4a3306b2434228c26fb4879b3a7ad124d0112cda67b3412a65891a725d1651b",
+                    "max": 443,
+                    "min": 443
+                  },
+                  {
+                    "count": 1,
+                    "hash": "c4b400168e19a57038bd34045f155031980113a4b6f2dd78d097dedb85cb486f",
+                    "max": 445,
+                    "min": 445
+                  },
+                  {
+                    "count": 1,
+                    "hash": "27bfc106799c6f391b5fea0d1d93c7238ccbc9b907ae3a4cef2f376b4999eff3",
+                    "max": 445,
+                    "min": 445
+                  },
+                  {
+                    "count": 1,
+                    "hash": "843425e1ecf44ee2c89d2039f85062c980406199987677c7f9867f1aa934310f",
+                    "max": 445,
+                    "min": 445
+                  },
+                  {
+                    "count": 1,
+                    "hash": "30488ed263768575aa294faf71d4a58f22fbf34941a8cf92295188f7cebf87ab",
+                    "max": 445,
+                    "min": 445
+                  },
+                  {
+                    "count": 1,
+                    "hash": "c3ca1e3911f5ae7e5c27895dd9ab8371320f7c7f9f7069900aadd0ecefd071e0",
+                    "max": 445,
+                    "min": 445
+                  },
+                  {
+                    "count": 1,
+                    "hash": "702e22943d3b877b1307325d9ea20a22faa7d9bdae490fb020e019d288a58905",
+                    "max": 445,
+                    "min": 445
+                  },
+                  {
+                    "count": 1,
+                    "hash": "987c5ef09d85068996be69c3c17dfef77975b43eb1744d2e286769372d3c1c34",
+                    "max": 445,
+                    "min": 445
+                  },
+                  {
+                    "count": 1,
+                    "hash": "8c2e1448fb7a8f4baabe4c729e860c8381a95afd78a54e17dc7721e678e8a2f2",
+                    "max": 446,
+                    "min": 446
+                  },
+                  {
+                    "count": 1,
+                    "hash": "8c21aef735603692b624d4fb39b9da94773de519523e1db56a74cf8656ec96ea",
+                    "max": 446,
+                    "min": 446
+                  },
+                  {
+                    "count": 1,
+                    "hash": "12b326c72e7955f5c5482c0a0a2f6660aed8854d70012998eae95c89d9c3fab6",
+                    "max": 446,
+                    "min": 446
+                  },
+                  {
+                    "count": 1,
+                    "hash": "511e937d86897f999092ba95dda63f6e9314acc429655cd48a9cfc87df1897c8",
+                    "max": 446,
+                    "min": 446
+                  },
+                  {
+                    "count": 1,
+                    "hash": "564a8fd9cb81edcb99082e8205c587bbc552c0e0289fe0884c45f78bcd0b01af",
+                    "max": 446,
+                    "min": 446
+                  },
+                  {
+                    "count": 1,
+                    "hash": "21f8ccb17ed1497ed8bf004568a04516acb25ed59cbd5ff57e3cef3323ecdf60",
+                    "max": 446,
+                    "min": 446
+                  },
+                  {
+                    "count": 1,
+                    "hash": "0c3ab752bb6b120613406486f26323e0db808c0c286e42e8b4933dd43f3dcd21",
+                    "max": 446,
+                    "min": 446
+                  },
+                  {
+                    "count": 1,
+                    "hash": "12f35b458a2903244449dbca1fbd8a9dddb2117a271c5a731431c65a18c01f7b",
+                    "max": 446,
+                    "min": 446
+                  }
+                ],
+                "count": 16,
+                "hash": "d9595b40b94ab8c619e53f1c9ad56d8dac2e389cfb54ec649eb981a5f684a69d",
+                "kind": "cover",
+                "max": 446,
+                "min": 443,
+                "summary": {
+                  "0|0|2|0": [
+                    1,
+                    26,
+                    115860277489406929940740887910515104034
+                  ],
+                  "0|0|2|5": [
+                    1,
+                    135,
+                    14617059991983626634906778616209944339
+                  ],
+                  "0|0|4|1": [
+                    1,
+                    74,
+                    100033939388809273996408455925247514004
+                  ],
+                  "0|0|4|3": [
+                    1,
+                    52,
+                    85066420399268506057383909563715480839
+                  ],
+                  "0|1|3|0": [
+                    1,
+                    23,
+                    138238231416591733976832408430857105176
+                  ],
+                  "2|0|4|1": [
+                    1,
+                    305,
+                    41323398551182871763856521968145766365
+                  ],
+                  "2|1|1|3": [
+                    1,
+                    240,
+                    55370793460299671074239025598891388908
+                  ],
+                  "2|2|4|0": [
+                    1,
+                    49,
+                    3048894971188609830700648253194647777
+                  ],
+                  "3|0|0|2": [
+                    1,
+                    47,
+                    16778867466622050290621561473452104299
+                  ],
+                  "3|0|2|2": [
+                    1,
+                    212,
+                    99366387396500894069854105152339821770
+                  ],
+                  "3|1|4|2": [
+                    1,
+                    134,
+                    28611297685405094360968880772513190545
+                  ],
+                  "4|0|1|0": [
+                    1,
+                    41,
+                    65700571808570570205371956765773108677
+                  ],
+                  "4|0|4|5": [
+                    1,
+                    203,
+                    105271067522880022162086581752728303791
+                  ],
+                  "4|1|0|0": [
+                    1,
+                    22,
+                    133892779535659551190536405482315425684
+                  ],
+                  "5|0|0|5": [
+                    1,
+                    74,
+                    133682126896070595415822552707493874456
+                  ],
+                  "5|1|2|4": [
+                    1,
+                    85,
+                    169163706644153613421881233376289597601
+                  ]
+                },
+                "summary_digest": "442d038342696641140932a9eb33a215ae5bac5c6190bce7484c3d4635efc834"
+              },
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "ed29062aa38ee59e8885530db6f3b5884bb7199fed509b5af0f2281bb3b07ebe",
+                    "max": 447,
+                    "min": 447
+                  },
+                  {
+                    "count": 1,
+                    "hash": "1fd9c77bff3a1395d8d4f015743cf36906787183e4d3af47d879582d508a638b",
+                    "max": 447,
+                    "min": 447
+                  },
+                  {
+                    "count": 1,
+                    "hash": "4892d75970f8615784c56232c61089ba828ce619ad4a92eb54f73f8c708459ac",
+                    "max": 447,
+                    "min": 447
+                  },
+                  {
+                    "count": 1,
+                    "hash": "f75355858e84fab5a66637d3a761f4debf42d946215884255c7c8a326fe4cfa0",
+                    "max": 448,
+                    "min": 448
+                  },
+                  {
+                    "count": 1,
+                    "hash": "4e37d4d93cda14549e79eeafb1dfcc32d746b25d355b5001112909baecf9e824",
+                    "max": 448,
+                    "min": 448
+                  },
+                  {
+                    "count": 1,
+                    "hash": "34774d8300378181c30adcdef38be773763e937f5fe9e64761e64f63752ef965",
+                    "max": 448,
+                    "min": 448
+                  },
+                  {
+                    "count": 1,
+                    "hash": "61a62e7af96b6943f3d33173f3ce07ef59c33d1f98bb3f632ce591d9a8c2a0ee",
+                    "max": 448,
+                    "min": 448
+                  },
+                  {
+                    "count": 1,
+                    "hash": "a17203af8f62085eab8c244b4bd9d0f7c23e1abee6915cbeaa4caecbdc938e13",
+                    "max": 448,
+                    "min": 448
+                  },
+                  {
+                    "count": 1,
+                    "hash": "1d529461e5b920ad9d13ec83acdfc4e859f885158740ac63f927254e2b71c959",
+                    "max": 448,
+                    "min": 448
+                  },
+                  {
+                    "count": 1,
+                    "hash": "252904bfebe404e5e24f3e42e275f4b50b0b52c5926f45abe34a3c06ceafa564",
+                    "max": 448,
+                    "min": 448
+                  },
+                  {
+                    "count": 1,
+                    "hash": "2a0d68f170382a36761086afbab996ad7fc5cd701e9c6084200b7ce28dac2b1c",
+                    "max": 449,
+                    "min": 449
+                  },
+                  {
+                    "count": 1,
+                    "hash": "3ef20b230b1725cc047c90669d659b8c253274d588d436fdfe2889ca651611fb",
+                    "max": 449,
+                    "min": 449
+                  },
+                  {
+                    "count": 1,
+                    "hash": "c0cfdb835450d7caa3e2495ccf96fab73fb249b85e23d11a9aae69abbff8c1b5",
+                    "max": 449,
+                    "min": 449
+                  },
+                  {
+                    "count": 1,
+                    "hash": "81f3040865a302df72af6ed626340ef059ebcffef3da07db8f428e9b42637f39",
+                    "max": 450,
+                    "min": 450
+                  },
+                  {
+                    "count": 1,
+                    "hash": "ff8f8ea943e5ef79d6b33d247cbf628d61884f8e21086b5ad351d2cef5f7f354",
+                    "max": 450,
+                    "min": 450
+                  },
+                  {
+                    "count": 1,
+                    "hash": "5a16231e3a0acb0363386cd866433d2768a2390f87fae8f40e772b5f11b468b8",
+                    "max": 450,
+                    "min": 450
+                  }
+                ],
+                "count": 16,
+                "hash": "83345d148e6df5ffd451751ae4e7f349b22736537ab3b72d6c3ecf1681e2cf2e",
+                "kind": "cover",
+                "max": 450,
+                "min": 447,
+                "summary": {
+                  "0|0|0|0": [
+                    1,
+                    16,
+                    133348503014208340758096614580840988789
+                  ],
+                  "0|0|1|4": [
+                    1,
+                    133,
+                    17038979200713204575456051476618042202
+                  ],
+                  "0|0|2|4": [
+                    2,
+                    146,
+                    62773017858933596663858878660511705839
+                  ],
+                  "0|0|4|1": [
+                    1,
+                    31,
+                    106063464891598990398253332578694673154
+                  ],
+                  "1|0|2|0": [
+                    1,
+                    45,
+                    118549855387397806758089021104607552066
+                  ],
+                  "1|0|4|0": [
+                    1,
+                    97,
+                    44561295984284520268052770079014039542
+                  ],
+                  "1|0|4|4": [
+                    1,
+                    65,
+                    141274114214575322064851627139032739804
+                  ],
+                  "1|1|0|3": [
+                    1,
+                    36,
+                    78450868901577546496587414815549337815
+                  ],
+                  "2|0|3|2": [
+                    1,
+                    97,
+                    128213236503239150470174497518993545475
+                  ],
+                  "2|1|0|2": [
+                    1,
+                    88,
+                    19443353861639243902324338959123717350
+                  ],
+                  "3|0|0|0": [
+                    1,
+                    11,
+                    23850980293485241839047798537221338066
+                  ],
+                  "3|1|1|5": [
+                    1,
+                    84,
+                    154360161698768929855970304666496274739
+                  ],
+                  "4|0|3|4": [
+                    1,
+                    74,
+                    75786264466302069148691569927998575441
+                  ],
+                  "4|1|4|3": [
+                    1,
+                    132,
+                    66480000393004775596848554350929893582
+                  ],
+                  "5|1|2|1": [
+                    1,
+                    140,
+                    119312602283950983588529736801204766989
+                  ]
+                },
+                "summary_digest": "a79c2f8ea756b16ad8ef1d178ee637a1cdea620964683e1c6423dad287e706e1"
+              }
+            ],
+            "count": 256,
+            "hash": "0c7e7f83f9d12343e77426487ac2a483f80bd6d8f350f32e059d3e63b44af803",
+            "kind": "branch",
+            "max": 450,
+            "min": 403,
+            "summary_digest": "c3c684dcc955be3db84e5dec0bbb1070c3dd62c680b7dd43e12143f47b0c7fb3"
+          },
+          {
+            "children": [
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "9954a5b8927b3f078d885aa7e7f03e54d6d315606e53768a4e364be99f1223e2",
+                    "max": 450,
+                    "min": 450
+                  },
+                  {
+                    "count": 1,
+                    "hash": "8b47bf7272484fedb7d9ccb7e07b4c11b2f0d600352cc300e8e6693b3113c3e7",
+                    "max": 450,
+                    "min": 450
+                  },
+                  {
+                    "count": 1,
+                    "hash": "6b43435976609621b565394ffa2f10807d556721baccda039b8714611bc29e3c",
+                    "max": 450,
+                    "min": 450
+                  },
+                  {
+                    "count": 1,
+                    "hash": "d51a146ebc66ca0748f906adc42deb283ee6e45dd0e6ec2625da7d14fbc70f0c",
+                    "max": 450,
+                    "min": 450
+                  },
+                  {
+                    "count": 1,
+                    "hash": "381aa0ed81244514ad32e15159a133161fec8610f978c1eabd0d384d45e9c0b3",
+                    "max": 450,
+                    "min": 450
+                  },
+                  {
+                    "count": 1,
+                    "hash": "bf430e31d253a02bc942c0161df55cda5375d0d47e04bf0519f1c899b268962e",
+                    "max": 450,
+                    "min": 450
+                  },
+                  {
+                    "count": 1,
+                    "hash": "2f4fc7984dfc9518d4f95815c6f93c6e5e1ac5e50784fe3d2870176d1c003b1f",
+                    "max": 451,
+                    "min": 451
+                  },
+                  {
+                    "count": 1,
+                    "hash": "7080c4f0907ce981f0744640051a3c8ec4cf5d09e7059b970dcc1a8a66dfac63",
+                    "max": 452,
+                    "min": 452
+                  },
+                  {
+                    "count": 1,
+                    "hash": "d16d55fa7a8d69dfbda76e28eb3fbcb0af25e781623ec79922fa1b727be2c479",
+                    "max": 452,
+                    "min": 452
+                  },
+                  {
+                    "count": 1,
+                    "hash": "8c6062591920b1ce48661d1d26dc0cb2dd3e197551bf3f3bca79ea6ed3042888",
+                    "max": 452,
+                    "min": 452
+                  },
+                  {
+                    "count": 1,
+                    "hash": "0535a54160c7353bf932b02b4f6e1e0ec87cb2c345129bf012aa590f84c617c8",
+                    "max": 452,
+                    "min": 452
+                  },
+                  {
+                    "count": 1,
+                    "hash": "e26e010dabac904ba8d870bed0ef42b825774e512513b864c9a0a22df2029fd1",
+                    "max": 452,
+                    "min": 452
+                  },
+                  {
+                    "count": 1,
+                    "hash": "c059e118810de98a98fb1447112446553cbd38f33f285365fecca37e03b79078",
+                    "max": 452,
+                    "min": 452
+                  },
+                  {
+                    "count": 1,
+                    "hash": "74a44e7bcbb83d05835056a331c62c7790950876ec82db76ea5142a1cd50ae29",
+                    "max": 453,
+                    "min": 453
+                  },
+                  {
+                    "count": 1,
+                    "hash": "dc3e8daa240ddb74b498b1634cfc30eece964242be10beac9d42bb2cbf75e0df",
+                    "max": 453,
+                    "min": 453
+                  },
+                  {
+                    "count": 1,
+                    "hash": "9e36dd83db8d4a27e4411f879d891488b2a51858f3a90d44c659b92e89eff99a",
+                    "max": 453,
+                    "min": 453
+                  }
+                ],
+                "count": 16,
+                "hash": "69674f1823f9a8d8bb6c210b87e93619e9516d6dd170af83b55147fe478ddebd",
+                "kind": "cover",
+                "max": 453,
+                "min": 450,
+                "summary": {
+                  "0|0|1|2": [
+                    1,
+                    37,
+                    153035350835395348066337841850463268992
+                  ],
+                  "0|1|3|0": [
+                    1,
+                    194,
+                    91974262954858033991824465411610753938
+                  ],
+                  "0|2|4|5": [
+                    1,
+                    116,
+                    71481479111629348960609298791685819821
+                  ],
+                  "1|0|1|4": [
+                    1,
+                    50,
+                    137777526745046874933118464760851347245
+                  ],
+                  "2|0|3|0": [
+                    1,
+                    105,
+                    131038494955451712702025434543050134857
+                  ],
+                  "2|0|3|1": [
+                    1,
+                    29,
+                    133523830645513628413015613472243788213
+                  ],
+                  "2|0|3|5": [
+                    1,
+                    201,
+                    85424751428539785227983490491483440009
+                  ],
+                  "2|1|4|3": [
+                    1,
+                    71,
+                    153166095781711967147590780194449505779
+                  ],
+                  "3|0|2|3": [
+                    2,
+                    129,
+                    89538411501493349244388633020954035005
+                  ],
+                  "4|0|0|3": [
+                    1,
+                    47,
+                    102258774635503922810799334324587537884
+                  ],
+                  "4|0|1|1": [
+                    1,
+                    101,
+                    37328690326303220008917382131373482575
+                  ],
+                  "4|0|1|4": [
+                    1,
+                    97,
+                    32826096285541821244768832951525917840
+                  ],
+                  "4|1|2|1": [
+                    1,
+                    99,
+                    157342294933559638333980709361435644547
+                  ],
+                  "5|0|0|1": [
+                    1,
+                    20,
+                    95231388370414095295776681904366585839
+                  ],
+                  "5|2|0|1": [
+                    1,
+                    67,
+                    28691022225984119853040691886236899036
+                  ]
+                },
+                "summary_digest": "bfad96969439f684971b66c34f7d8e6d62db5f8a4e1b4e81fde4e1da67db8bba"
+              },
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "791e1dee3dd2202e1a986258a71231593cd5de47f56cee46d3ac3bb94dca7c98",
+                    "max": 453,
+                    "min": 453
+                  },
+                  {
+                    "count": 1,
+                    "hash": "8366786c61e7024ea69889de9cc92f295e20481f706764ffcfc3a900631361d8",
+                    "max": 453,
+                    "min": 453
+                  },
+                  {
+                    "count": 1,
+                    "hash": "625caf91a52451209c406df93624411af4656235ff2f7581cc576784164aade1",
+                    "max": 453,
+                    "min": 453
+                  },
+                  {
+                    "count": 1,
+                    "hash": "347231cc955ff4bff65400eacccdc21b8a28813d80ee1cc3e6b550de337716c0",
+                    "max": 454,
+                    "min": 454
+                  },
+                  {
+                    "count": 1,
+                    "hash": "a84000da4132abba8d667eb030380fe086af6cd6929c9976614389d0e3b99716",
+                    "max": 454,
+                    "min": 454
+                  },
+                  {
+                    "count": 1,
+                    "hash": "7b62b6573da186f7248aace884299219ec4c65485e6a2e6c3af94db1c2161f3d",
+                    "max": 454,
+                    "min": 454
+                  },
+                  {
+                    "count": 1,
+                    "hash": "9015b3750b2d54cb810aa0020a94524a995d73ce02b83cffd7e80e51275d4e56",
+                    "max": 454,
+                    "min": 454
+                  },
+                  {
+                    "count": 1,
+                    "hash": "51f0fba07d13995eea92a70dec8fe24423440dc82dd807a444042255776dca50",
+                    "max": 454,
+                    "min": 454
+                  },
+                  {
+                    "count": 1,
+                    "hash": "57a63e38e3f8945005df4155505d33033a9777d992753d345e7513e15579c656",
+                    "max": 454,
+                    "min": 454
+                  },
+                  {
+                    "count": 1,
+                    "hash": "de9f69160dcfb5807c7a08d71b85007f602b660821e76bf72d30646ee51cdafb",
+                    "max": 454,
+                    "min": 454
+                  },
+                  {
+                    "count": 1,
+                    "hash": "3f73e8a002b82e1f29313c17dbf21290036fc6b5784370a855dfba7cf8433f4e",
+                    "max": 455,
+                    "min": 455
+                  },
+                  {
+                    "count": 1,
+                    "hash": "dcd58434bbaa057aeb08198ce66e841227823d95e6f6f420fa2c63a79b7862c1",
+                    "max": 455,
+                    "min": 455
+                  },
+                  {
+                    "count": 1,
+                    "hash": "dd95a072c640a48b033b3bcdc64d07c7740363cdf69682837359794e38b41afb",
+                    "max": 455,
+                    "min": 455
+                  },
+                  {
+                    "count": 1,
+                    "hash": "8eaf06554bf05c37a8c90cb483ad7de4577e4550a4864b8278b4c0f063cdf019",
+                    "max": 456,
+                    "min": 456
+                  },
+                  {
+                    "count": 1,
+                    "hash": "4fae7af2feb2ce872dd54fd67d86535d40ed908cb74f26b355ce97038d55a69c",
+                    "max": 456,
+                    "min": 456
+                  },
+                  {
+                    "count": 1,
+                    "hash": "0d4dfec053997665395f3e54b169a6424f2df30f6be29720499f10daa1cb6a9c",
+                    "max": 456,
+                    "min": 456
+                  }
+                ],
+                "count": 16,
+                "hash": "a2d9053452381772e6978de458e6aa8e823df294fd52e23d01e1c834f5409477",
+                "kind": "cover",
+                "max": 456,
+                "min": 453,
+                "summary": {
+                  "0|0|2|5": [
+                    1,
+                    76,
+                    86395864618781201421085282410506574839
+                  ],
+                  "0|1|4|3": [
+                    1,
+                    77,
+                    149152325569263565589513204266374312475
+                  ],
+                  "1|0|1|1": [
+                    1,
+                    197,
+                    41635702010148265944729079915722249889
+                  ],
+                  "1|0|1|2": [
+                    1,
+                    86,
+                    39108564016377311712441387885087399472
+                  ],
+                  "1|0|2|5": [
+                    1,
+                    62,
+                    10642385857181267323809993479335573620
+                  ],
+                  "1|2|1|0": [
+                    1,
+                    40,
+                    27533142421417466851180145092442183677
+                  ],
+                  "2|0|2|1": [
+                    1,
+                    51,
+                    11883124542385903535658331947942103880
+                  ],
+                  "2|0|3|2": [
+                    1,
+                    73,
+                    89399989049744190699791687830547783440
+                  ],
+                  "2|0|4|1": [
+                    1,
+                    95,
+                    113898874460252657738779383343694172108
+                  ],
+                  "2|2|1|0": [
+                    1,
+                    40,
+                    81920303490664099274163139316041422367
+                  ],
+                  "3|1|1|0": [
+                    1,
+                    38,
+                    147127744922855349921887909482837885305
+                  ],
+                  "3|2|3|4": [
+                    1,
+                    102,
+                    100304223121924952321605733338662549527
+                  ],
+                  "4|0|0|0": [
+                    1,
+                    274,
+                    51636366859950619859700225324020424945
+                  ],
+                  "4|1|3|0": [
+                    1,
+                    30,
+                    24309902512046105291025230693785672802
+                  ],
+                  "4|1|3|5": [
+                    1,
+                    61,
+                    80690082052310512423934695246920958166
+                  ],
+                  "5|0|0|4": [
+                    1,
+                    43,
+                    86522282514912922170758571590021661869
+                  ]
+                },
+                "summary_digest": "a7d4520784a0bbcbc23a8b396019484bafdf95ed7f7f2588c097025fa652cfc9"
+              },
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "d6a20c2872254a33085f62eb3f6c7fdef545b6edafdc824e0b90656b957f9dec",
+                    "max": 456,
+                    "min": 456
+                  },
+                  {
+                    "count": 1,
+                    "hash": "d749983486274603416592f6f128575f659eec0988d06099252b6bcc36ae001e",
+                    "max": 456,
+                    "min": 456
+                  },
+                  {
+                    "count": 1,
+                    "hash": "89d901be6c425fd1c56a84613dbf49419e3b42544de878279b13827ee7408f86",
+                    "max": 456,
+                    "min": 456
+                  },
+                  {
+                    "count": 1,
+                    "hash": "99706ebcd5a0cb50224d897eb05a3856b1df654a593337f41eeb4d96ddea605f",
+                    "max": 457,
+                    "min": 457
+                  },
+                  {
+                    "count": 1,
+                    "hash": "7f5a889f2b89d0e914899725e275813a68cd8899f649e77ce8cc9f2108e063b5",
+                    "max": 457,
+                    "min": 457
+                  },
+                  {
+                    "count": 1,
+                    "hash": "c1a52c45d881df95f1c055d7b540002f168f40e4eaac0169cd3ecf65b71dbd3a",
+                    "max": 457,
+                    "min": 457
+                  },
+                  {
+                    "count": 1,
+                    "hash": "67fa1f0d486dfbe756ab881532cb06e596b5462486d82ccdcdbca324d3e8fe33",
+                    "max": 457,
+                    "min": 457
+                  },
+                  {
+                    "count": 1,
+                    "hash": "a3d438cb02fe50ee412fca1a3922cce430e77b377cd1f1af4137c295a205885f",
+                    "max": 457,
+                    "min": 457
+                  },
+                  {
+                    "count": 1,
+                    "hash": "c2a0be14e0e599428820e02174c6c7de5006c7e9b1ddc4d80a6d31ebae1656b0",
+                    "max": 458,
+                    "min": 458
+                  },
+                  {
+                    "count": 1,
+                    "hash": "efa985cebfb7ff6f4d53b52a7195acb7101a71831a7ab8d5a2aa5546290dd823",
+                    "max": 458,
+                    "min": 458
+                  },
+                  {
+                    "count": 1,
+                    "hash": "6d62d67f3c271d1231add494ebbdb483a46b7ad602bfaae23f8958af9cd58178",
+                    "max": 458,
+                    "min": 458
+                  },
+                  {
+                    "count": 1,
+                    "hash": "b209c5215cda1e28f140bf015d1414a4008f30f54362c09f6118d2a6057385b2",
+                    "max": 458,
+                    "min": 458
+                  },
+                  {
+                    "count": 1,
+                    "hash": "4c667ea508bbbac03d76c167bd48842d465e9a37e01fc489215b3e63afbfa78b",
+                    "max": 458,
+                    "min": 458
+                  },
+                  {
+                    "count": 1,
+                    "hash": "26990147db50bd759b719c480f6674e3ae802c37690186a82beb25146b63ab6e",
+                    "max": 458,
+                    "min": 458
+                  },
+                  {
+                    "count": 1,
+                    "hash": "12e8280bd26388e27edd7e3c53530f410e97f904007a275937961a3aa7d800c0",
+                    "max": 458,
+                    "min": 458
+                  },
+                  {
+                    "count": 1,
+                    "hash": "498253f42596a9ede120bbddbf2f84a8447b11a38f3facc8d7be718e441ef53e",
+                    "max": 458,
+                    "min": 458
+                  }
+                ],
+                "count": 16,
+                "hash": "2b11eb4db325c72586337629a1b8341b65a49d6123f59ec793f5895d98b9cd4e",
+                "kind": "cover",
+                "max": 458,
+                "min": 456,
+                "summary": {
+                  "0|0|1|0": [
+                    1,
+                    85,
+                    76754042947427620835529366301002872644
+                  ],
+                  "0|0|2|1": [
+                    1,
+                    78,
+                    45710711616150981936016736600346467864
+                  ],
+                  "1|0|3|4": [
+                    1,
+                    56,
+                    61992490174902521397784789092528369144
+                  ],
+                  "1|0|3|5": [
+                    1,
+                    145,
+                    24926849198342191483658017018105658975
+                  ],
+                  "1|1|4|5": [
+                    1,
+                    66,
+                    151709126356880234946090269113686411181
+                  ],
+                  "1|2|2|4": [
+                    1,
+                    101,
+                    109192122750250561513109674696041257994
+                  ],
+                  "2|0|1|0": [
+                    1,
+                    33,
+                    76218201479058246176745241454412320141
+                  ],
+                  "2|1|0|5": [
+                    1,
+                    48,
+                    168911545999547574032311639344874014733
+                  ],
+                  "3|0|1|5": [
+                    1,
+                    108,
+                    37914092678766539370938840474865493629
+                  ],
+                  "3|1|2|3": [
+                    1,
+                    104,
+                    25758459705117496422252726683717463485
+                  ],
+                  "4|0|0|0": [
+                    1,
+                    60,
+                    132358098367560904618650259173228671641
+                  ],
+                  "5|0|0|2": [
+                    1,
+                    123,
+                    71586851067130592418366360516709055500
+                  ],
+                  "5|0|1|2": [
+                    1,
+                    81,
+                    85917035546310990727102303528971155293
+                  ],
+                  "5|0|4|0": [
+                    1,
+                    153,
+                    36039079972600788699170557949484271860
+                  ],
+                  "5|0|4|4": [
+                    1,
+                    176,
+                    77964595569448606985580811953094630123
+                  ],
+                  "5|1|2|0": [
+                    1,
+                    21,
+                    6718784120136687872500863320572189691
+                  ]
+                },
+                "summary_digest": "afe2c5db3754a0f0b76cc05521c524d282104d2a9d1ec7587de5f4794b91e2e1"
+              },
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "18d607892f7451754ff087e4e9d83e9b9c259fcb9c43ba61e1f0e6f4b1cb249c",
+                    "max": 459,
+                    "min": 459
+                  },
+                  {
+                    "count": 1,
+                    "hash": "01de20421a8a9b406fa4d18fa0c1746b96fc376fe06871b6ed2261fa308b144a",
+                    "max": 459,
+                    "min": 459
+                  },
+                  {
+                    "count": 1,
+                    "hash": "65b436ea71bcac05541f1da70546d847c63a8a852a87329a31d7e39be81bf927",
+                    "max": 459,
+                    "min": 459
+                  },
+                  {
+                    "count": 1,
+                    "hash": "9b093793e68c709e827497dd3ff950dc62f7f635ace54598421bcf58744d414f",
+                    "max": 459,
+                    "min": 459
+                  },
+                  {
+                    "count": 1,
+                    "hash": "e0b713e8798ca5a2d52c454883318b9fabdd6400ed32d1500355b52d502b1179",
+                    "max": 459,
+                    "min": 459
+                  },
+                  {
+                    "count": 1,
+                    "hash": "d99da3adc565d4c70cb2e9e73de1ec5687a6c7100f7b1271bda90ced85dfc9a6",
+                    "max": 459,
+                    "min": 459
+                  },
+                  {
+                    "count": 1,
+                    "hash": "41f8961e0401f331582ad45d301dcc1a169eb79290876e04ea617cfbd08f0b90",
+                    "max": 460,
+                    "min": 460
+                  },
+                  {
+                    "count": 1,
+                    "hash": "96b201bcc1a0342280807b7a6b905610528bc27e82d849cca58f11c4a3f513a1",
+                    "max": 460,
+                    "min": 460
+                  },
+                  {
+                    "count": 1,
+                    "hash": "aac567b4a3c687dd9e2c90126d5e21411bffa691cc2ba0bd147ff58a98fc227e",
+                    "max": 460,
+                    "min": 460
+                  },
+                  {
+                    "count": 1,
+                    "hash": "bde3334136f5d618ed45db55474bfd02d740328a6e33947b645ecbf8eaf90db7",
+                    "max": 460,
+                    "min": 460
+                  },
+                  {
+                    "count": 1,
+                    "hash": "08ccf24f32f55af9722a040fd81d87e66dda9528e8267fe6bc79579f6436733e",
+                    "max": 460,
+                    "min": 460
+                  },
+                  {
+                    "count": 1,
+                    "hash": "54c4fa112a52a8d7b9b45c54410b5a3baacd45ced33ddd99695774fe2545af6d",
+                    "max": 460,
+                    "min": 460
+                  },
+                  {
+                    "count": 1,
+                    "hash": "50303883e23c5bd2090d5cb99c9fbde49ebd0e4d3cbbc1c266262b8b39fad19f",
+                    "max": 460,
+                    "min": 460
+                  },
+                  {
+                    "count": 1,
+                    "hash": "83060d24f19c3460e421a4d78c1fef38523997947b57bb1e651c6e2c0d4adf8e",
+                    "max": 461,
+                    "min": 461
+                  },
+                  {
+                    "count": 1,
+                    "hash": "7234886012d74285ac4bf6b6e2897afb309ba2fc45c6439b09cb6aacc50b845c",
+                    "max": 461,
+                    "min": 461
+                  },
+                  {
+                    "count": 1,
+                    "hash": "469b2b2927ac79f144a74ef7c446f254dd8379a2b09b755e94bdf9502a7684bb",
+                    "max": 461,
+                    "min": 461
+                  }
+                ],
+                "count": 16,
+                "hash": "6d5b455132b8715513d329e2cac9607e6c48aaa3672c21ca2faa8f027497979a",
+                "kind": "cover",
+                "max": 461,
+                "min": 459,
+                "summary": {
+                  "0|0|3|0": [
+                    1,
+                    39,
+                    3987826602153262697097546285463144792
+                  ],
+                  "1|0|1|3": [
+                    1,
+                    116,
+                    4094539620705490564626123328046283049
+                  ],
+                  "1|1|2|4": [
+                    1,
+                    53,
+                    54315878043553783457226556427900308262
+                  ],
+                  "1|1|3|0": [
+                    1,
+                    22,
+                    135459284835810199812867486774387088450
+                  ],
+                  "2|1|0|3": [
+                    1,
+                    101,
+                    52145468213475156235831338536054894067
+                  ],
+                  "2|1|0|5": [
+                    1,
+                    53,
+                    5484483024584636057634853177998285992
+                  ],
+                  "2|1|2|0": [
+                    1,
+                    48,
+                    90984568408255376203341604861944261622
+                  ],
+                  "3|0|0|4": [
+                    1,
+                    64,
+                    130117182286592296722034531225194302003
+                  ],
+                  "3|0|1|0": [
+                    1,
+                    24,
+                    101624190304831049087249613161119510516
+                  ],
+                  "3|0|4|2": [
+                    1,
+                    164,
+                    84252201031372502777653078658404400365
+                  ],
+                  "4|0|0|4": [
+                    1,
+                    44,
+                    148081685307451949294418090738411032487
+                  ],
+                  "4|0|1|5": [
+                    1,
+                    101,
+                    168712721258263050545567200388451721760
+                  ],
+                  "4|0|2|0": [
+                    1,
+                    35,
+                    125993393110424909341604917920275848768
+                  ],
+                  "4|0|4|3": [
+                    1,
+                    80,
+                    55175303559410324194032252185814614747
+                  ],
+                  "4|1|0|4": [
+                    1,
+                    100,
+                    46476326307313987803647595152977308062
+                  ],
+                  "4|2|2|4": [
+                    1,
+                    84,
+                    149094692339161863894971923017569004091
+                  ]
+                },
+                "summary_digest": "64eefa219b76dcb59e2488c814de9150e0453f431728e5734c7cf9650cf2a46c"
+              },
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "57d57f863ed0b65086355d5dcb5bf0aa34b92149d8601dd436516cd5e0c1d71d",
+                    "max": 461,
+                    "min": 461
+                  },
+                  {
+                    "count": 1,
+                    "hash": "f4663ad3ec734ad935b7160f9a61f3d2fdf1e09c954f08da1abad25b6aea0ff1",
+                    "max": 461,
+                    "min": 461
+                  },
+                  {
+                    "count": 1,
+                    "hash": "1af9f5bf9a8813fc498614d0a1153cab0fb205e4ed582c4278d752827c24701a",
+                    "max": 461,
+                    "min": 461
+                  },
+                  {
+                    "count": 1,
+                    "hash": "0ef9c06d0d501b484e4b4f7947b9a4b427e752c7294e9678ef687c5e96a33a93",
+                    "max": 462,
+                    "min": 462
+                  },
+                  {
+                    "count": 1,
+                    "hash": "88d95ab06aec8d0cd96931787909979ac98a1c5a35d3dff30f1db2de462d0033",
+                    "max": 462,
+                    "min": 462
+                  },
+                  {
+                    "count": 1,
+                    "hash": "1e85187cf1df7d05ed8e67b0fc876cc2d6e881e6e290eed431a4919e40414a6e",
+                    "max": 462,
+                    "min": 462
+                  },
+                  {
+                    "count": 1,
+                    "hash": "b1ed3090573090da35827d486ca750637e1c59cfce190e815395853edc335e07",
+                    "max": 463,
+                    "min": 463
+                  },
+                  {
+                    "count": 1,
+                    "hash": "f1bd01df4aaebb6fab89873d12e4fabe165fda3b52d4a989991547c0ed58de8f",
+                    "max": 463,
+                    "min": 463
+                  },
+                  {
+                    "count": 1,
+                    "hash": "bd9d1e7b37ca09a676d80128f0f90f98aa36c079d635eea6fc105e0db15249a9",
+                    "max": 464,
+                    "min": 464
+                  },
+                  {
+                    "count": 1,
+                    "hash": "231fe4541ae88ba041385dc83c7a7cff1b40071ee57c1d0429f7c7a12a8e8b56",
+                    "max": 464,
+                    "min": 464
+                  },
+                  {
+                    "count": 1,
+                    "hash": "1bf83b3c62f78ca7b5c4a5bad1d70486b0d280a267ed4b0f325372be2b9de225",
+                    "max": 464,
+                    "min": 464
+                  },
+                  {
+                    "count": 1,
+                    "hash": "d4aa41c2536560066744add71560e1accd3ec126c514f8cf8b38121a380c9f0f",
+                    "max": 465,
+                    "min": 465
+                  },
+                  {
+                    "count": 1,
+                    "hash": "cf1a0decf5e3bd595080ae592be168b746c1cfe2c1fe68c29994344cb466c815",
+                    "max": 465,
+                    "min": 465
+                  },
+                  {
+                    "count": 1,
+                    "hash": "d1c74d1c09b0dc1a6153ab324e5b92f83ec23db6e30fa73e5c68739a0ea7978c",
+                    "max": 465,
+                    "min": 465
+                  },
+                  {
+                    "count": 1,
+                    "hash": "7214baf9b6c68eaf9fabb80636c8ca772bfae1477bdb9ed4814d07108e844c19",
+                    "max": 465,
+                    "min": 465
+                  },
+                  {
+                    "count": 1,
+                    "hash": "45964bfed517e6611e89d59ea37dbaa173bad954fdb74498240fd025fbed6ec2",
+                    "max": 465,
+                    "min": 465
+                  }
+                ],
+                "count": 16,
+                "hash": "2c7dbd27e4366071ef890453f8a88f5b8c2fb94f95889d716cd79208d222f250",
+                "kind": "cover",
+                "max": 465,
+                "min": 461,
+                "summary": {
+                  "0|0|1|5": [
+                    1,
+                    107,
+                    72599291929657652101326862715180896365
+                  ],
+                  "0|0|4|2": [
+                    1,
+                    78,
+                    5041099647009455567420936639692823841
+                  ],
+                  "0|1|3|4": [
+                    1,
+                    56,
+                    139652488109740711143087927339841694365
+                  ],
+                  "1|1|3|5": [
+                    1,
+                    98,
+                    34170704095647034438720995117569233095
+                  ],
+                  "2|0|4|3": [
+                    1,
+                    182,
+                    13711078967185567707200705930544862566
+                  ],
+                  "2|1|2|3": [
+                    1,
+                    105,
+                    83573905149581268201954237932577272404
+                  ],
+                  "3|1|1|5": [
+                    1,
+                    102,
+                    143348827980244869565222787738285443753
+                  ],
+                  "4|0|4|3": [
+                    1,
+                    157,
+                    29633441916229026803271109385119937605
+                  ],
+                  "4|0|4|4": [
+                    1,
+                    69,
+                    113013344309378882324666815285223146690
+                  ],
+                  "5|0|0|5": [
+                    1,
+                    54,
+                    34456386781173554790063059178706938079
+                  ],
+                  "5|0|1|4": [
+                    1,
+                    87,
+                    96249013541573035205788208385111276100
+                  ],
+                  "5|0|3|0": [
+                    1,
+                    120,
+                    163503728409063223005328953164606001386
+                  ],
+                  "5|0|3|4": [
+                    2,
+                    191,
+                    11281001097418587025899065190100477019
+                  ],
+                  "5|0|4|2": [
+                    1,
+                    310,
+                    91509015517276589803878181906118650274
+                  ],
+                  "5|1|4|5": [
+                    1,
+                    174,
+                    37710021115637163130673322655200463852
+                  ]
+                },
+                "summary_digest": "524a600215fa3b98a2b8e1d23c3a0c19823ad938893755565ef80d49fc8d9b97"
+              },
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "b5c65a8e23a97ca47c4ba99c6a8120e571ad6196f19b36452bd366d984fe6339",
+                    "max": 465,
+                    "min": 465
+                  },
+                  {
+                    "count": 1,
+                    "hash": "ae8e17f571f605c9a0d03c7f35f21e903ee58b1e6af7325cea19f997c15b2456",
+                    "max": 465,
+                    "min": 465
+                  },
+                  {
+                    "count": 1,
+                    "hash": "d8137180dae88d216a0fa75683272be765c0a3ad8fed67e3b9bbd3c640417000",
+                    "max": 465,
+                    "min": 465
+                  },
+                  {
+                    "count": 1,
+                    "hash": "5393b75ada892ac82272f58afb594cef63cd5937e750d609dfa99d24f4d32859",
+                    "max": 466,
+                    "min": 466
+                  },
+                  {
+                    "count": 1,
+                    "hash": "9a08cb073c5f061e9e7082b2852cb60c67d4eb83f272e421e4fdbf47df3543d1",
+                    "max": 466,
+                    "min": 466
+                  },
+                  {
+                    "count": 1,
+                    "hash": "0de655d7327a7a825b8b970afcdcd2a46526e79bcc1a5d0b0324b4d36bbd1ebc",
+                    "max": 466,
+                    "min": 466
+                  },
+                  {
+                    "count": 1,
+                    "hash": "9024eaec6788b0b4cea2609d479b2061947adbe0259cee39565289a7ecf992b9",
+                    "max": 466,
+                    "min": 466
+                  },
+                  {
+                    "count": 1,
+                    "hash": "545d541c2f0c3b5ef9fe938d3cc2fcf358aace55d4b6d70b39d4ad14035e4f29",
+                    "max": 466,
+                    "min": 466
+                  },
+                  {
+                    "count": 1,
+                    "hash": "33cd8b52023ec5e674978c88ee43bee3e5b090b4e45f7ba59508572dbf6ed4f0",
+                    "max": 466,
+                    "min": 466
+                  },
+                  {
+                    "count": 1,
+                    "hash": "64db25757d5155e30cd3a85f1a4fac688d7ca39190d1d42197151cb255b3ce52",
+                    "max": 466,
+                    "min": 466
+                  },
+                  {
+                    "count": 1,
+                    "hash": "fb9314fb8e38242488f31aebf055bf0942303e17cfe51cf942a5d482543b6fc0",
+                    "max": 467,
+                    "min": 467
+                  },
+                  {
+                    "count": 1,
+                    "hash": "fdd74f4dc1345ded6a9475be64a156e97a1e0c9ebf70fe68c3959b19c8498194",
+                    "max": 467,
+                    "min": 467
+                  },
+                  {
+                    "count": 1,
+                    "hash": "e40172b85b8e9612e91ae65650b7390f52296757c8e3b81aff476523ba88ae46",
+                    "max": 467,
+                    "min": 467
+                  },
+                  {
+                    "count": 1,
+                    "hash": "7ceac7274fe613bfc2232e02d058b9b9b5851f16af76b00512859ba2359ea204",
+                    "max": 467,
+                    "min": 467
+                  },
+                  {
+                    "count": 1,
+                    "hash": "80aca3eff20e9ea31a7ec1e18d7ce4ad0587e110aaccf65e3a1d7848b6dd70c1",
+                    "max": 468,
+                    "min": 468
+                  },
+                  {
+                    "count": 1,
+                    "hash": "1cd6e5bb83e7de5a260d0912ae7562ebddf52d5031996b4a319a9bdb751ee4ad",
+                    "max": 468,
+                    "min": 468
+                  }
+                ],
+                "count": 16,
+                "hash": "b7506a14885395991fcd5a43158a0ec983a40a6478d7e555b013ac6a4cd030bf",
+                "kind": "cover",
+                "max": 468,
+                "min": 465,
+                "summary": {
+                  "0|0|4|3": [
+                    1,
+                    150,
+                    2042201042397810103113787931265776471
+                  ],
+                  "0|1|0|4": [
+                    1,
+                    185,
+                    21840306896424057414776397064525732849
+                  ],
+                  "2|1|0|2": [
+                    1,
+                    48,
+                    33159001830377550966159902628053976555
+                  ],
+                  "2|1|1|1": [
+                    1,
+                    81,
+                    18939360393872589331727542717827238131
+                  ],
+                  "3|0|3|4": [
+                    1,
+                    78,
+                    120972871656537065578327776385594926537
+                  ],
+                  "3|1|2|4": [
+                    1,
+                    144,
+                    22367232022580932491319207755970508250
+                  ],
+                  "3|2|0|0": [
+                    1,
+                    24,
+                    35683553858152588680821759237506946946
+                  ],
+                  "4|0|0|3": [
+                    1,
+                    39,
+                    67121405942191856684227809327984806787
+                  ],
+                  "4|0|3|1": [
+                    1,
+                    148,
+                    23437152609448521281244332851071348215
+                  ],
+                  "4|2|3|1": [
+                    1,
+                    81,
+                    66432627765128291870027125777652484207
+                  ],
+                  "5|0|2|5": [
+                    1,
+                    93,
+                    17771496037557417208030461430580268814
+                  ],
+                  "5|0|3|3": [
+                    1,
+                    152,
+                    117250467994337152197034291919159088436
+                  ],
+                  "5|0|4|1": [
+                    1,
+                    62,
+                    80349824555767352119264867201735807289
+                  ],
+                  "5|1|0|1": [
+                    1,
+                    38,
+                    77360003067898177639603743140375248984
+                  ],
+                  "5|1|1|3": [
+                    1,
+                    34,
+                    132944513925135794625926922934724695972
+                  ],
+                  "5|2|0|3": [
+                    1,
+                    40,
+                    27275660253864607602523681266964351886
+                  ]
+                },
+                "summary_digest": "38e5e002839850fa02be4fa84e19596c8f643aff333cf1ab147fba032f67be28"
+              },
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "bb17dc8719f175712e6b0abd814614c97c9c08bbf2931bad66ef3f6a48bce122",
+                    "max": 468,
+                    "min": 468
+                  },
+                  {
+                    "count": 1,
+                    "hash": "1e5f0336965534e03b1a6f121224cbb018d5d06333a676efb4da6821a3b17307",
+                    "max": 468,
+                    "min": 468
+                  },
+                  {
+                    "count": 1,
+                    "hash": "650c29e338f5430319285bf3b7366829764d1dd55ec281b7908f1936c827b420",
+                    "max": 468,
+                    "min": 468
+                  },
+                  {
+                    "count": 1,
+                    "hash": "7a5aa1456508538cc3c420438e7ebafab191bf3d262a5f85c4c681097276b987",
+                    "max": 468,
+                    "min": 468
+                  },
+                  {
+                    "count": 1,
+                    "hash": "6fbebe19b71650fd038133c1f3dad5325e7bdd473e217aa3ab10eafeb53a2dbc",
+                    "max": 468,
+                    "min": 468
+                  },
+                  {
+                    "count": 1,
+                    "hash": "40d77a24face66d8b609887cf66fa5a8c36b38f2ac0146409b769318039722a6",
+                    "max": 468,
+                    "min": 468
+                  },
+                  {
+                    "count": 1,
+                    "hash": "c4171a6ceca0a67ff90e73c4a357d83ba48f5e293292388480cb71c1cc2e8d4e",
+                    "max": 470,
+                    "min": 470
+                  },
+                  {
+                    "count": 1,
+                    "hash": "8931af07114de956254341b3914732fa816a85d0c8a573e921d0148088ba9a8b",
+                    "max": 471,
+                    "min": 471
+                  },
+                  {
+                    "count": 1,
+                    "hash": "00ad8fc7dbb57ab0679577d1d71259058864c32908414461923a7ddb4be3d62b",
+                    "max": 471,
+                    "min": 471
+                  },
+                  {
+                    "count": 1,
+                    "hash": "4435ddb7ad4831a8de54c8698e5c3c61d3937125e50a46c01064f9cc0f55e2b4",
+                    "max": 471,
+                    "min": 471
+                  },
+                  {
+                    "count": 1,
+                    "hash": "f644ddb09faec83426df87d9a9679393858bb3d1f5aaf9667e47f6c835de0923",
+                    "max": 471,
+                    "min": 471
+                  },
+                  {
+                    "count": 1,
+                    "hash": "3810a8628a45bc780a00bd8dec78ee7c6521a3487c8e438e6139e54fa81b67e7",
+                    "max": 471,
+                    "min": 471
+                  },
+                  {
+                    "count": 1,
+                    "hash": "4588f4a2f5841ec10501b35143b42981e08d3f35a7483ed7a4cc2efcb3623e9c",
+                    "max": 471,
+                    "min": 471
+                  },
+                  {
+                    "count": 1,
+                    "hash": "c64a95a7ad44d7dab1ce785d24795a1350b4a8d0aef9ad556d8a7cad9c52d7cf",
+                    "max": 472,
+                    "min": 472
+                  },
+                  {
+                    "count": 1,
+                    "hash": "3bbbc8624e6bd87d771186b64daa3fddcfdcf67ca6a7cdb4955d73de7d901b82",
+                    "max": 472,
+                    "min": 472
+                  },
+                  {
+                    "count": 1,
+                    "hash": "c3fbc1293220b4070dd96f88967b3521d92fb8523f3a31000c06168a4406cb2b",
+                    "max": 472,
+                    "min": 472
+                  }
+                ],
+                "count": 16,
+                "hash": "04c413955af8a0c73bb8eda15f405f4456d27dc31332864f7110ef9c51a02194",
+                "kind": "cover",
+                "max": 472,
+                "min": 468,
+                "summary": {
+                  "0|0|0|1": [
+                    1,
+                    112,
+                    17495697793623673779764764736040586482
+                  ],
+                  "0|2|3|2": [
+                    1,
+                    66,
+                    84015354338407346623033932553920214400
+                  ],
+                  "0|2|3|5": [
+                    1,
+                    79,
+                    159275808758663094560701479976255678806
+                  ],
+                  "1|0|1|1": [
+                    1,
+                    86,
+                    25640682011511360651701367127489344331
+                  ],
+                  "1|0|3|2": [
+                    1,
+                    101,
+                    61608048656136851759765271445643780534
+                  ],
+                  "2|0|2|5": [
+                    1,
+                    93,
+                    40456176541315797906834810558905936399
+                  ],
+                  "2|1|0|0": [
+                    1,
+                    29,
+                    65400561587704636085978725522715807779
+                  ],
+                  "3|0|0|1": [
+                    1,
+                    117,
+                    85073452806117755694610074167800395797
+                  ],
+                  "3|0|1|2": [
+                    1,
+                    33,
+                    81316495806287179246241785012513106129
+                  ],
+                  "3|0|2|0": [
+                    1,
+                    21,
+                    116674359599942346642296449203010892514
+                  ],
+                  "3|0|2|2": [
+                    1,
+                    222,
+                    66060260521070004800950430733498364858
+                  ],
+                  "4|0|0|2": [
+                    1,
+                    31,
+                    92061773626565214678509414855502188456
+                  ],
+                  "4|0|3|1": [
+                    1,
+                    26,
+                    163438070152730899380412312602893264571
+                  ],
+                  "4|2|1|3": [
+                    1,
+                    247,
+                    98429656678136685505671103463834272984
+                  ],
+                  "5|0|4|3": [
+                    2,
+                    320,
+                    148712967309026208636283632521411931402
+                  ]
+                },
+                "summary_digest": "bf207e49717daaa9ea8809b1e759ccb4a71acd477a3b93affb4931d2df58ac2e"
+              },
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "6c8b9975d886ef59a48c9f2b2fddbe1e3252a979635b4c024454b6fbdd23ca0e",
+                    "max": 472,
+                    "min": 472
+                  },
+                  {
+                    "count": 1,
+                    "hash": "a40157d137134f01aae891ecb58c3f45b9ff19009efca0780e80a55f8eea39a0",
+                    "max": 472,
+                    "min": 472
+                  },
+                  {
+                    "count": 1,
+                    "hash": "f32bf7cb8233d96ba906d46725bd8ab53a73f3550368fef42e34b9f76b0bde0d",
+                    "max": 472,
+                    "min": 472
+                  },
+                  {
+                    "count": 1,
+                    "hash": "f8599b0415aa07640c446369a3f300746a572d3b89cd648e13395bf0db02d9a5",
+                    "max": 472,
+                    "min": 472
+                  },
+                  {
+                    "count": 1,
+                    "hash": "d24c7acadca998f55ef769fc9ca6c38db27544dab2805775721a5f32b0805c0a",
+                    "max": 472,
+                    "min": 472
+                  },
+                  {
+                    "count": 1,
+                    "hash": "85efccf4729450fa087ed0382f5850250da976a423ab585625770ef3547f4cc3",
+                    "max": 473,
+                    "min": 473
+                  },
+                  {
+                    "count": 1,
+                    "hash": "5a39ff811f32d0604b79d0d1ed5c39bc07cabdb8622ed2e64782eae0d95826cf",
+                    "max": 473,
+                    "min": 473
+                  },
+                  {
+                    "count": 1,
+                    "hash": "eef21fa90b564ef67cf61883b11782bda94299d7e62138413abd6d523ca68fc6",
+                    "max": 473,
+                    "min": 473
+                  },
+                  {
+                    "count": 1,
+                    "hash": "65920e362b32d309b2eb00428b7130a0296c60bad6e209b0dbfecc7fc549fa23",
+                    "max": 473,
+                    "min": 473
+                  },
+                  {
+                    "count": 1,
+                    "hash": "0b7ce7bd254e10fd0f28250c1bddaf72665d076339d52d0b4c6ce2754f30939f",
+                    "max": 473,
+                    "min": 473
+                  },
+                  {
+                    "count": 1,
+                    "hash": "e0e61ae70bf195529a2f253b7694aa63ffc60a841db561b1d4d508e2786a696f",
+                    "max": 473,
+                    "min": 473
+                  },
+                  {
+                    "count": 1,
+                    "hash": "a8b666cb65e43609264fa6e08272054da3893b20a1aa038fedab7f6fb3d55929",
+                    "max": 473,
+                    "min": 473
+                  },
+                  {
+                    "count": 1,
+                    "hash": "fec7030d2019aee7b4c8290eab2deed40d06e38e22a361f7119664e19567e096",
+                    "max": 474,
+                    "min": 474
+                  },
+                  {
+                    "count": 1,
+                    "hash": "15c2916c81ed2d5ab430f13b3d88931521abf7700acccb2d1ebd269624623ac7",
+                    "max": 474,
+                    "min": 474
+                  },
+                  {
+                    "count": 1,
+                    "hash": "e0bb852adde991b72f53c32ee6ee01c70cea00e10590e5f13b104d43e782729a",
+                    "max": 474,
+                    "min": 474
+                  },
+                  {
+                    "count": 1,
+                    "hash": "199e0106196238787d75271fe1b3a4de9c9d913e1540d5791845c1f12d60e869",
+                    "max": 474,
+                    "min": 474
+                  }
+                ],
+                "count": 16,
+                "hash": "d1eec5758876d080e0d76800f6724a271aefd0dc9bcee14640e226b14ccf7b65",
+                "kind": "cover",
+                "max": 474,
+                "min": 472,
+                "summary": {
+                  "0|0|2|2": [
+                    1,
+                    44,
+                    40612326720554951025171730432679783309
+                  ],
+                  "0|1|0|2": [
+                    1,
+                    56,
+                    157562611143214040212446085898253505173
+                  ],
+                  "0|2|1|5": [
+                    1,
+                    169,
+                    47325687184830056371959457085602626819
+                  ],
+                  "2|0|0|2": [
+                    2,
+                    284,
+                    87971274454665757065128728323798842079
+                  ],
+                  "2|0|0|5": [
+                    1,
+                    89,
+                    128586202476032907996071657770501296077
+                  ],
+                  "2|1|0|0": [
+                    1,
+                    23,
+                    102821838736498420568205948837035179992
+                  ],
+                  "3|1|0|3": [
+                    1,
+                    50,
+                    127408612694325720144705998187752149006
+                  ],
+                  "3|1|0|4": [
+                    1,
+                    41,
+                    31421168884831144267150035546328444018
+                  ],
+                  "3|1|2|3": [
+                    1,
+                    286,
+                    158019317803691533516430189687473981569
+                  ],
+                  "4|0|2|5": [
+                    1,
+                    56,
+                    70296728081003533965435214357614048457
+                  ],
+                  "4|0|3|0": [
+                    1,
+                    111,
+                    139100072565660778489768290116411681605
+                  ],
+                  "4|0|3|1": [
+                    1,
+                    73,
+                    12112475517571935377504101436269453931
+                  ],
+                  "5|0|3|2": [
+                    1,
+                    56,
+                    55459014230946731501023271678844629726
+                  ],
+                  "5|1|1|4": [
+                    1,
+                    67,
+                    154939282589786606847787863807039122233
+                  ],
+                  "5|2|2|5": [
+                    1,
+                    54,
+                    60890956077133511037183686271211788843
+                  ]
+                },
+                "summary_digest": "07ce52b9dcb3775c8abc0db2850b136213d15e4a4d3f0d3538750b3f232c063f"
+              },
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "63cf28029b8e366d21f8f41f9310f6d6b4a5b1e3ebfc40fdaf1d6c3f9a6250fc",
+                    "max": 475,
+                    "min": 475
+                  },
+                  {
+                    "count": 1,
+                    "hash": "4f6a3ac49b58cb30ac3a3ad2bdbcbc4749a3303ada467e6da59ec399f4033ed5",
+                    "max": 475,
+                    "min": 475
+                  },
+                  {
+                    "count": 1,
+                    "hash": "6705f3b0b70b464e62317d741f9bf5db402cc0ff5a8a5791fb45ca2c53492dac",
+                    "max": 475,
+                    "min": 475
+                  },
+                  {
+                    "count": 1,
+                    "hash": "5fd7338daa0a2be9b34a831d5a16ea195183e0e96c43448847cf68daced41e0e",
+                    "max": 475,
+                    "min": 475
+                  },
+                  {
+                    "count": 1,
+                    "hash": "b94d7ddef3dc63248bb4ae24fb5b5526839b600fd7d46c5eb4e9fe0ae9cf0b01",
+                    "max": 475,
+                    "min": 475
+                  },
+                  {
+                    "count": 1,
+                    "hash": "c5d568820ccd18c4fa0b85ad91e47f5dbc3093cc118306975af2553a7e0dfe09",
+                    "max": 475,
+                    "min": 475
+                  },
+                  {
+                    "count": 1,
+                    "hash": "120b132ec5370a91121197031a0668c6fbaccd01c6c75f9666af57f1a57ec714",
+                    "max": 475,
+                    "min": 475
+                  },
+                  {
+                    "count": 1,
+                    "hash": "2d5be610cf57614375a5dcc28e816398ef08698f8f5830ce22504ba1fd4641ac",
+                    "max": 475,
+                    "min": 475
+                  },
+                  {
+                    "count": 1,
+                    "hash": "696289494e2eacd80ead8902bf0205f06a3f612c8dda1f0e2a9ccc65e971b1ce",
+                    "max": 475,
+                    "min": 475
+                  },
+                  {
+                    "count": 1,
+                    "hash": "331f3ecdae886ca3f7655b2fc22c64030b901e250ecc1067911d2a3d2d041656",
+                    "max": 476,
+                    "min": 476
+                  },
+                  {
+                    "count": 1,
+                    "hash": "2fb7497e71284476205bccbeaa570c77cadd54ba5c548075a39fff737df9a5f8",
+                    "max": 476,
+                    "min": 476
+                  },
+                  {
+                    "count": 1,
+                    "hash": "1c2d396a016e79b673cef4896228007578d374df596413032b2a54de8417b5eb",
+                    "max": 476,
+                    "min": 476
+                  },
+                  {
+                    "count": 1,
+                    "hash": "136498cf25bbe6e54b6ca771a8e7b744ab68d1fcc011a78520199899a137d553",
+                    "max": 476,
+                    "min": 476
+                  },
+                  {
+                    "count": 1,
+                    "hash": "eadc8f351e9c0698b48fea36bf51695789598acdc19cc197ef17116464275dc6",
+                    "max": 476,
+                    "min": 476
+                  },
+                  {
+                    "count": 1,
+                    "hash": "7a4a0a1aa243a6b1dc47a264bf59d2de4ecab8bf16a9bf9465080245c49a8fbb",
+                    "max": 476,
+                    "min": 476
+                  },
+                  {
+                    "count": 1,
+                    "hash": "a76dc1332c98c2a23b7b1f17c4a07029582c694a2109c0df933132b5ed90c29d",
+                    "max": 476,
+                    "min": 476
+                  }
+                ],
+                "count": 16,
+                "hash": "40c26d46f55f6190c731a15c954f798b6676569bb26d6cd518ec8a88aab9fe17",
+                "kind": "cover",
+                "max": 476,
+                "min": 475,
+                "summary": {
+                  "1|1|0|5": [
+                    1,
+                    198,
+                    58335129840926744447585842811362359083
+                  ],
+                  "1|2|1|4": [
+                    1,
+                    61,
+                    109843646199667537471942417450328470223
+                  ],
+                  "2|0|2|1": [
+                    1,
+                    72,
+                    168489836977505537737776257060459904047
+                  ],
+                  "2|0|2|4": [
+                    1,
+                    51,
+                    36238532944623120295747866809821165859
+                  ],
+                  "2|0|4|0": [
+                    1,
+                    139,
+                    87181403645031154015976094242559736010
+                  ],
+                  "2|1|0|2": [
+                    1,
+                    30,
+                    120881075872051255345631499973092029565
+                  ],
+                  "2|1|2|4": [
+                    1,
+                    230,
+                    24666766327456248304698258241539443769
+                  ],
+                  "2|1|4|5": [
+                    1,
+                    183,
+                    62087046704648647576992788952001100128
+                  ],
+                  "3|0|1|4": [
+                    1,
+                    42,
+                    50664804278459921458907141546216365142
+                  ],
+                  "3|0|3|0": [
+                    1,
+                    49,
+                    17619824585855384544542555242795424201
+                  ],
+                  "3|1|3|1": [
+                    1,
+                    40,
+                    90947137513551766431685542559163867276
+                  ],
+                  "4|0|0|2": [
+                    1,
+                    207,
+                    86122978832719836767599838528741593941
+                  ],
+                  "4|0|0|3": [
+                    1,
+                    78,
+                    122415337951698340539223422335724507759
+                  ],
+                  "4|1|4|4": [
+                    1,
+                    139,
+                    141762543051827177286553849236527897721
+                  ],
+                  "5|0|0|1": [
+                    1,
+                    64,
+                    161739064787265294393012918382781493462
+                  ],
+                  "5|0|4|3": [
+                    1,
+                    72,
+                    131409545814575207734564368034144486449
+                  ]
+                },
+                "summary_digest": "3af63858eb5604a69b78bc4ddcd2c31f2821ed85c2c5d30bfdfca2f487e9d797"
+              },
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "ee83ae60304ddda76dbc7ca3c662a97711c59aec2433fb369cfd6c4658a95cf1",
+                    "max": 476,
+                    "min": 476
+                  },
+                  {
+                    "count": 1,
+                    "hash": "01f6b8a77101637246bcdce46720d10cfa4aede7fbd75adaf4d2b90790dac6c8",
+                    "max": 477,
+                    "min": 477
+                  },
+                  {
+                    "count": 1,
+                    "hash": "298e982318c146c822b33a8b0ec7903bde2d3166ff10196a14c6ad4f3f57e63b",
+                    "max": 477,
+                    "min": 477
+                  },
+                  {
+                    "count": 1,
+                    "hash": "b6cfb1b095e6beb4466ba525509483c78f0424f89d6c2a576ff3e95b834021cc",
+                    "max": 477,
+                    "min": 477
+                  },
+                  {
+                    "count": 1,
+                    "hash": "6370d0673c2963aeb3740d71d160c8484f200cf63b00a254c8b369daaf37e427",
+                    "max": 477,
+                    "min": 477
+                  },
+                  {
+                    "count": 1,
+                    "hash": "be74f40c5c6d90331727f08d5dc79effa9f510da273a0e324b49fadfd716ee9e",
+                    "max": 477,
+                    "min": 477
+                  },
+                  {
+                    "count": 1,
+                    "hash": "4b087cfc0863f677188f899381e0d459ae68642debf59e28206ef90266a477b1",
+                    "max": 477,
+                    "min": 477
+                  },
+                  {
+                    "count": 1,
+                    "hash": "1ef762aa793f7ba3938dbd40a448b5da830326702c5097daadac4155098c912c",
+                    "max": 478,
+                    "min": 478
+                  },
+                  {
+                    "count": 1,
+                    "hash": "c997fa5fa074426b5e43450623f3d2ba33e2d2d58aad337050c0ee0c95f27f44",
+                    "max": 478,
+                    "min": 478
+                  },
+                  {
+                    "count": 1,
+                    "hash": "cf160f93e77640bbdab99833d52ceb1c04851eff2695870dd200fb93869405da",
+                    "max": 479,
+                    "min": 479
+                  },
+                  {
+                    "count": 1,
+                    "hash": "7125c5beae0193fe428e7eb28d7fbbcd3bdb8ee7f1eab632f4babc03cd45d9cf",
+                    "max": 479,
+                    "min": 479
+                  },
+                  {
+                    "count": 1,
+                    "hash": "a202f0a0d08c0ec03aff0d98782c7d4836b6957b188d3d55a955cc1f923b565e",
+                    "max": 479,
+                    "min": 479
+                  },
+                  {
+                    "count": 1,
+                    "hash": "2ed9bc6501060e5907aa65d161f805b41427c5381f6f312764ade49c895ce93e",
+                    "max": 479,
+                    "min": 479
+                  },
+                  {
+                    "count": 1,
+                    "hash": "511686fc1e80173899ed755b9da89c585ec6c7fb83922131b4c6da6f677932e0",
+                    "max": 479,
+                    "min": 479
+                  },
+                  {
+                    "count": 1,
+                    "hash": "7acd9f4d5ad2c36e9a801f361d86544c223b021de675e28e9038f6d5d9798386",
+                    "max": 480,
+                    "min": 480
+                  },
+                  {
+                    "count": 1,
+                    "hash": "e2712c183e828630c49357b9ab6a919ae5ddf227e2581421543a822272afceae",
+                    "max": 480,
+                    "min": 480
+                  }
+                ],
+                "count": 16,
+                "hash": "d4dc0c35a044bfad0ca2248e26af258cb113a57e938498a6f3c1a55357cba071",
+                "kind": "cover",
+                "max": 480,
+                "min": 476,
+                "summary": {
+                  "0|0|1|3": [
+                    1,
+                    119,
+                    69248388469456944863418503186357380691
+                  ],
+                  "0|0|2|2": [
+                    1,
+                    120,
+                    57987552721572039307400125137020675548
+                  ],
+                  "1|0|1|2": [
+                    1,
+                    194,
+                    54203323159439524401837966678236809175
+                  ],
+                  "1|0|2|1": [
+                    1,
+                    77,
+                    50391220879169499758494397341716463961
+                  ],
+                  "2|0|1|3": [
+                    1,
+                    112,
+                    134663574182704850746171869171587731715
+                  ],
+                  "2|0|2|0": [
+                    1,
+                    64,
+                    32253868854319829959617633693083382929
+                  ],
+                  "2|0|2|4": [
+                    1,
+                    57,
+                    29374997960628374045282374015059607483
+                  ],
+                  "2|0|4|5": [
+                    1,
+                    104,
+                    40912702246233883513673808732843873058
+                  ],
+                  "3|0|0|4": [
+                    1,
+                    182,
+                    50043313443037465916130267453488294584
+                  ],
+                  "4|0|2|3": [
+                    1,
+                    172,
+                    3821477563381728758250776459180637226
+                  ],
+                  "4|0|4|4": [
+                    1,
+                    78,
+                    12138769042511340378132297421164294203
+                  ],
+                  "5|0|2|4": [
+                    1,
+                    46,
+                    81676683706507434238433400679656936789
+                  ],
+                  "5|0|3|1": [
+                    1,
+                    54,
+                    143681541970545440367800036982880141825
+                  ],
+                  "5|1|0|3": [
+                    1,
+                    48,
+                    15890758763121896465816159322766765453
+                  ],
+                  "5|1|4|1": [
+                    2,
+                    116,
+                    38908824556820989201618114694030987744
+                  ]
+                },
+                "summary_digest": "ab57187d7d2c4ff80b9212c3592499b5cada9c76b8b40c6ddf91139cfbbf9367"
+              },
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "d19f72e3e7f0b96f830a703eb674915ab40e0bd159a75eee4cf5255058126d88",
+                    "max": 481,
+                    "min": 481
+                  },
+                  {
+                    "count": 1,
+                    "hash": "c41d3a14a222821a83a5dc4ff7aed9041bfa637b82c09b862f5cfdd3d8afa7e2",
+                    "max": 481,
+                    "min": 481
+                  },
+                  {
+                    "count": 1,
+                    "hash": "e5a3e699d7ff03d5d73ee85ddc791dfd168039943270e41567bc8d8c03e49900",
+                    "max": 481,
+                    "min": 481
+                  },
+                  {
+                    "count": 1,
+                    "hash": "acb9918a17dfc55974d46e4485383a65eb1d430f84ab08704ef1707d4df7daf6",
+                    "max": 481,
+                    "min": 481
+                  },
+                  {
+                    "count": 1,
+                    "hash": "805f30743084335417b2a602f7786f86aa9e0262f0021cfb6425344dbf64af82",
+                    "max": 481,
+                    "min": 481
+                  },
+                  {
+                    "count": 1,
+                    "hash": "ecc49af2cefbd300e66ca31fd5660befe7583afd81cc589d53da5a15bc69fc60",
+                    "max": 481,
+                    "min": 481
+                  },
+                  {
+                    "count": 1,
+                    "hash": "f41896c5adaac1e003349db828b944477f06ac5fc3d52a59568492c43e7a5667",
+                    "max": 481,
+                    "min": 481
+                  },
+                  {
+                    "count": 1,
+                    "hash": "838b1083b7d597e4cf579c21014a66b0fb5d37f159dfe5ff3524e551a8a2456a",
+                    "max": 482,
+                    "min": 482
+                  },
+                  {
+                    "count": 1,
+                    "hash": "04f385e44aa496f1eb24d20da2fb2ef81955456d4e5812ed333142d7b0388e0b",
+                    "max": 482,
+                    "min": 482
+                  },
+                  {
+                    "count": 1,
+                    "hash": "7ad88580b2b1c4692e7558a80a80552cb2e86ffdfba52696abf0fc9cd84212d7",
+                    "max": 482,
+                    "min": 482
+                  },
+                  {
+                    "count": 1,
+                    "hash": "b1be3e36f1cf48df2474806883c802bca6ae8a58d4fadf3e0e3a45db666a08bd",
+                    "max": 482,
+                    "min": 482
+                  },
+                  {
+                    "count": 1,
+                    "hash": "dc4a9d820deb36da67485d3b27f0d02dbe7b3ff4ea568e2cf8497956c44373cc",
+                    "max": 482,
+                    "min": 482
+                  },
+                  {
+                    "count": 1,
+                    "hash": "dec48aedeb304e98fa2c9f91b62581b505d703c9999dca6501d15f49b4ae735b",
+                    "max": 483,
+                    "min": 483
+                  },
+                  {
+                    "count": 1,
+                    "hash": "ed096db27458b8b1e286b491375fe96e6a5d542a3b401a6c256401b80674386b",
+                    "max": 483,
+                    "min": 483
+                  },
+                  {
+                    "count": 1,
+                    "hash": "44bae59e3d7c8eebbc671e5ab94fb5587b8c2db46c7a0682f10d58734070d784",
+                    "max": 483,
+                    "min": 483
+                  },
+                  {
+                    "count": 1,
+                    "hash": "a81266c02dd58e36cba6ce82f22504332a839b9437e395fa01b0d5ecf745a471",
+                    "max": 483,
+                    "min": 483
+                  }
+                ],
+                "count": 16,
+                "hash": "f3de8cd19e2f613269e6daf34f0c34460b3641b74342272595036d777cc32c3c",
+                "kind": "cover",
+                "max": 483,
+                "min": 481,
+                "summary": {
+                  "0|0|0|2": [
+                    1,
+                    575,
+                    66844431089899031743376742780968253652
+                  ],
+                  "0|0|4|0": [
+                    1,
+                    34,
+                    45552529677917428098021506200925766351
+                  ],
+                  "1|0|0|2": [
+                    1,
+                    48,
+                    111360080011475927781365003605973930833
+                  ],
+                  "1|0|3|0": [
+                    2,
+                    185,
+                    72270786981441029028548991394567283737
+                  ],
+                  "1|1|3|3": [
+                    1,
+                    119,
+                    162699741616125711969350527069110112415
+                  ],
+                  "1|2|4|1": [
+                    1,
+                    163,
+                    150971371635744150566710648909230050080
+                  ],
+                  "2|0|0|3": [
+                    1,
+                    36,
+                    146133549530168826723144905238662583730
+                  ],
+                  "2|0|4|3": [
+                    1,
+                    174,
+                    144490420467216955073875170780720961811
+                  ],
+                  "2|1|0|3": [
+                    1,
+                    58,
+                    137028737639459207726324741399628518619
+                  ],
+                  "4|0|3|4": [
+                    1,
+                    157,
+                    158205926365609739068636706647346345464
+                  ],
+                  "4|1|1|5": [
+                    1,
+                    103,
+                    11112761404452560583091931054670456336
+                  ],
+                  "5|0|0|0": [
+                    1,
+                    200,
+                    167760838334482715229043498141516440428
+                  ],
+                  "5|0|1|5": [
+                    1,
+                    81,
+                    13691538390393812677198073264652803714
+                  ],
+                  "5|0|2|1": [
+                    1,
+                    86,
+                    127386893636193418987923329200919489626
+                  ],
+                  "5|1|1|5": [
+                    1,
+                    101,
+                    143482967016945552137652224405384245287
+                  ]
+                },
+                "summary_digest": "64a960ddeef241df42075e39b9e53c39a282d136a913e3f2d725617a3dd577ba"
+              },
+              {
+                "child_descriptors": [
+                  {
+                    "count": 1,
+                    "hash": "41c17ffd14d6a7f37a07361cbd6755365c672bc770709e5c1d8488300e112a3a",
+                    "max": 484,
+                    "min": 484
+                  },
+                  {
+                    "count": 1,
+                    "hash": "a1b154a5f752e7eceffdbe27d00149b7c59846992bccfe522f90ac85b44118ca",
+                    "max": 484,
+                    "min": 484
+                  },
+                  {
+                    "count": 1,
+                    "hash": "2c41270e7eac9bcb31f13d62422445708b1e8496e2478eee10b927f06cbee178",
+                    "max": 484,
+                    "min": 484
+                  },
+                  {
+                    "count": 1,
+                    "hash": "d5ae85b0bb4dd105b2c3d0ee95893d97af4ab903b5bd433b446cbb5e246ae7d0",
+                    "max": 484,
+                    "min": 484
+                  },
+                  {
+                    "count": 1,
+                    "hash": "829a3ea7f88640111c4f2d61f7f9f7b8dc1b5bf47e50debe53d561a190f463f7",
+                    "max": 484,
+                    "min": 484
+                  },
+                  {
+                    "count": 1,
+                    "hash": "397b61f4279a742f0e6755b82a4cae51b1c088ae4e97a26def44e4d973cbc528",
+                    "max": 484,
+                    "min": 484
+                  },
+                  {
+                    "count": 1,
+                    "hash": "0952002b42bb0752b009047975beba5625e8facd694d274ec0b0147c5b11d506",
+                    "max": 485,
+                    "min": 485
+                  },
+                  {
+                    "count": 1,
+                    "hash": "3060f4edd68a9c6ec2d86664c9e44e7b3073b01e0360dd2e34d69cdb5249c3e4",
+                    "max": 485,
+                    "min": 485
+                  },
+                  {
+                    "count": 1,
+                    "hash": "539a72438ecebd7b72e66a1ab1aafd59815770b24150145f5e5ecfa81b323f8b",
+                    "max": 485,
+                    "min": 485
+                  },
+                  {
+                    "count": 1,
+                    "hash": "25fa6487d7a4c812227c270b7fc8da31891333c4fcb800c8b555080f99a33075",
+                    "max": 485,
+                    "min": 485
+                  },
+                  {
+                    "count": 1,
+                    "hash": "955b34fdd382f09d841d1c7ff432913fa276aa3d47dcdc465e86a36575f6dab8",
+                    "max": 485,
+                    "min": 485
+                  },
+                  {
+                    "count": 1,
+                    "hash": "051ba50f3866e0286ae910442ffb4efa062c0dd19a5dec2cf4c9bc3f340b85d1",
+                    "max": 486,
+                    "min": 486
+                  },
+                  {
+                    "count": 1,
+                    "hash": "84ed8496ab59bd271168757fdde50dd48e9f5f19504a43ee8bb181d0ded3bb2d",
+                    "max": 486,
+                    "min": 486
+                  },
+                  {
+                    "count": 1,
+                    "hash": "30bc9ab23ec0104792a24ed463231852704055d0feff5c7af54c5a9ec77fa66d",
+                    "max": 486,
+                    "min": 486
+                  },
+                  {
+                    "count": 1,
+                    "hash": "a1f74f0e7e7bfdadd0a22205eef13668b66487f03f3f93003aa15f886455d36b",
+                    "max": 487,
+                    "min": 487
+                  },
+                  {
+                    "count": 1,
+                    "hash": "4291635008406f6d2b890dca1967b5d538b6aebc5a030334f340d2297c70e681",
+                    "max": 487,
+                    "min": 487
+                  }
+                ],
+                "count": 16,
+                "hash": "53b0c67c78de4ae8bea80aaa8552479794fffc6a18df72691efee2a356fb6542",
+                "kind": "cover",
+                "max": 487,
+                "min": 484,
+                "summary": {
+                  "0|0|0|1": [
+                    1,
+                    34,
+                    98640300707177136607514915955472809887
+                  ],
+                  "0|1|0|3": [
+                    1,
+                    48,
+                    21602356844260045825311889604600483612
+                  ],
+                  "0|1|1|0": [
+                    1,
+                    58,
+                    99685817664985837403313419996898148447
+                  ],
+                  "0|1|3|0": [
+                    1,
+                    119,
+                    56344721921246359590299282343698816862
+                  ],
+                  "1|0|2|1": [
+                    1,
+                    76,
+                    106723933473213422911113898905133108294
+                  ],
+                  "1|0|3|3": [
+                    1,
+                    50,
+                    48398281585189281140378084995888588580
+                  ],
+                  "1|1|3|0": [
+                    1,
+                    94,
+                    37715329731418117298560049538383470387
+                  ],
+                  "3|0|4|0": [
+                    1,
+                    25,
+                    96296957589754868051354738435318692946
+                  ],
+                  "4|0|0|0": [
+                    1,
+                    89,
+                    105759415753331191803085405658525954223
+                  ],
+                  "4|0|1|2": [
+                    1,
+                    28,
+                    13832653502583542218697302163651307781
+                  ],
+                  "4|1|3|3": [
+                    1,
+                    42,
+                    50625118259068799395468231349346217639
+                  ],
+                  "4|1|3|4": [
+                    1,
+                    155,
+                    122678290543983311070662111179093462743
+                  ],
+                  "5|0|0|5": [
+                    1,
+                    45,
+                    146728839413258544598474089283156737677
+                  ],
+                  "5|0|3|4": [
+                    1,
+                    63,
+                    10176167601089240812226498868511488781
+                  ],
+                  "5|0|4|1": [
+                    1,
+                    82,
+                    107353245305727935841665741319923646635
+                  ],
+                  "5|1|1|3": [
+                    1,
+                    115,
+                    138426371182744109887267617227131997076
+                  ]
+                },
+                "summary_digest": "ecae43cf464247a151a70f67c710814a2c9bf89458565ed845a8177f7bfe9ded"
+              },
+              {
+                "children": [
+                  {
+                    "count": 1,
+                    "hash": "58b92f5b13d78442b6a1e6e0618b09f68324a7d5b29c67e9916585378355e4ef",
+                    "kind": "cover",
+                    "max": 487,
+                    "min": 487,
+                    "record": {
+                      "amount": 60,
+                      "category": 1,
+                      "cust_id": 100109,
+                      "day": 487,
+                      "id": 4652,
+                      "profile": "dashboard_sales",
+                      "region": 2,
+                      "score": 992305,
+                      "sensitivity": 0,
+                      "tenant": 1
+                    },
+                    "summary": {
+                      "1|0|2|1": [
+                        1,
+                        60,
+                        114307263143725731526536170373776660730
+                      ]
+                    },
+                    "summary_digest": "6fb1213ccea1e0e4e600f02bd5078f0365b6b35ed932f93ef744c60c404c6a60"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "33e8f569174324a4a7e05b31d9dbda09caa1fa9861c5f38c67fdf1241fce53d4",
+                    "kind": "cover",
+                    "max": 487,
+                    "min": 487,
+                    "record": {
+                      "amount": 83,
+                      "category": 5,
+                      "cust_id": 10,
+                      "day": 487,
+                      "id": 4788,
+                      "profile": "dashboard_sales",
+                      "region": 1,
+                      "score": 990439,
+                      "sensitivity": 1,
+                      "tenant": 0
+                    },
+                    "summary": {
+                      "0|1|1|5": [
+                        1,
+                        83,
+                        29263663477842867061206441506406840586
+                      ]
+                    },
+                    "summary_digest": "b8d3e4495294a8ba372a4330449bf44751462bb00de27b4f29c6113e3828a86d"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "d0378ecef9e152863dab8e46eb525e890eba6e09d32660c0cdb0c071edc12132",
+                    "kind": "cover",
+                    "max": 488,
+                    "min": 488,
+                    "record": {
+                      "amount": 88,
+                      "category": 5,
+                      "cust_id": 500059,
+                      "day": 488,
+                      "id": 2486,
+                      "profile": "dashboard_sales",
+                      "region": 2,
+                      "score": 991613,
+                      "sensitivity": 1,
+                      "tenant": 5
+                    },
+                    "summary": {
+                      "5|1|2|5": [
+                        1,
+                        88,
+                        136862596250277087768832700099480074090
+                      ]
+                    },
+                    "summary_digest": "b1e4106de1f915897ff96d2cc8a48837e1d0a596c9d150b114f423b883106cef"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "f54ed4737f517a9284595d5358879c10bcefd4b518e0c78dd9ce14e9e1c13289",
+                    "kind": "cover",
+                    "max": 488,
+                    "min": 488,
+                    "record": {
+                      "amount": 46,
+                      "category": 3,
+                      "cust_id": 181,
+                      "day": 488,
+                      "id": 3124,
+                      "profile": "dashboard_sales",
+                      "region": 0,
+                      "score": 992301,
+                      "sensitivity": 0,
+                      "tenant": 0
+                    },
+                    "summary": {
+                      "0|0|0|3": [
+                        1,
+                        46,
+                        74816563427165202623196871493384237057
+                      ]
+                    },
+                    "summary_digest": "0f11f2084e5ec3b775e57796610add24b781cadd42dc1ecce162e1b18854c1ee"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "421cb84bf54a3818f1dd35d390b7e702bea39dc6f18d25a2239eca096166904e",
+                    "kind": "cover",
+                    "max": 488,
+                    "min": 488,
+                    "record": {
+                      "amount": 113,
+                      "category": 1,
+                      "cust_id": 53,
+                      "day": 488,
+                      "id": 4995,
+                      "profile": "dashboard_sales",
+                      "region": 2,
+                      "score": 992597,
+                      "sensitivity": 1,
+                      "tenant": 0
+                    },
+                    "summary": {
+                      "0|1|2|1": [
+                        1,
+                        113,
+                        58224992494280078837238869813032795981
+                      ]
+                    },
+                    "summary_digest": "85d4a321056230d83545ebbbfad0447941c55e2a6eb31888a74f57f61f82aa63"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "454859373e33bab6a778f8c722b9e6a6d97e3ffaee8ffe022512e0b14a5640ef",
+                    "kind": "cover",
+                    "max": 489,
+                    "min": 489,
+                    "record": {
+                      "amount": 19,
+                      "category": 0,
+                      "cust_id": 400102,
+                      "day": 489,
+                      "id": 378,
+                      "profile": "dashboard_sales",
+                      "region": 1,
+                      "score": 990992,
+                      "sensitivity": 1,
+                      "tenant": 4
+                    },
+                    "summary": {
+                      "4|1|1|0": [
+                        1,
+                        19,
+                        130403153800718224308764556390606286631
+                      ]
+                    },
+                    "summary_digest": "14ff1e22df99e729931c28132d1403a5ee90521c2dbfe80d3cf73e99b717c04c"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "3353a462d66ecf033216a8439c71510fa2d13c42c6d058822ddc0ec58a4fa70d",
+                    "kind": "cover",
+                    "max": 489,
+                    "min": 489,
+                    "record": {
+                      "amount": 36,
+                      "category": 2,
+                      "cust_id": 100131,
+                      "day": 489,
+                      "id": 2531,
+                      "profile": "dashboard_sales",
+                      "region": 2,
+                      "score": 993898,
+                      "sensitivity": 0,
+                      "tenant": 1
+                    },
+                    "summary": {
+                      "1|0|2|2": [
+                        1,
+                        36,
+                        4872692814058722471617934925710221907
+                      ]
+                    },
+                    "summary_digest": "239c769cc210bca62e61fc32146f4717af7a3c1dd427b00089bc5364c6a66fa2"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "a4ea6735b9dd3ebc3785d278cee617c87f5e4335a5d800bca6e210b8e3f09f56",
+                    "kind": "cover",
+                    "max": 489,
+                    "min": 489,
+                    "record": {
+                      "amount": 128,
+                      "category": 0,
+                      "cust_id": 400003,
+                      "day": 489,
+                      "id": 2576,
+                      "profile": "dashboard_sales",
+                      "region": 3,
+                      "score": 990463,
+                      "sensitivity": 0,
+                      "tenant": 4
+                    },
+                    "summary": {
+                      "4|0|3|0": [
+                        1,
+                        128,
+                        101126009275034743751030899361456317088
+                      ]
+                    },
+                    "summary_digest": "4f754815cc69f9b8a023ba73c28c27f8080d48a1c8b04f0801478f548c402858"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "15b635233e254a02ba6963a44d68999940a815075f347c563ed1e2663de2bff9",
+                    "kind": "cover",
+                    "max": 490,
+                    "min": 490,
+                    "record": {
+                      "amount": 74,
+                      "category": 0,
+                      "cust_id": 300160,
+                      "day": 490,
+                      "id": 419,
+                      "profile": "dashboard_sales",
+                      "region": 1,
+                      "score": 989104,
+                      "sensitivity": 0,
+                      "tenant": 3
+                    },
+                    "summary": {
+                      "3|0|1|0": [
+                        1,
+                        74,
+                        19119677177324395728703338768726709167
+                      ]
+                    },
+                    "summary_digest": "77a0679dfd991ac2ca3caf87a3ac07a1e8cbc188e20c63957c8ad2714d3296bb"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "1494f1ba42f1da46a8fe360ae38d88d77377cc6e1cc2a18b4ce23c31d373e386",
+                    "kind": "cover",
+                    "max": 490,
+                    "min": 490,
+                    "record": {
+                      "amount": 68,
+                      "category": 5,
+                      "cust_id": 100182,
+                      "day": 490,
+                      "id": 1062,
+                      "profile": "dashboard_sales",
+                      "region": 0,
+                      "score": 990055,
+                      "sensitivity": 1,
+                      "tenant": 1
+                    },
+                    "summary": {
+                      "1|1|0|5": [
+                        1,
+                        68,
+                        137459573109260641685332443374828541676
+                      ]
+                    },
+                    "summary_digest": "d75f4f576ccc291011c00c65624d4d86423f0734130f9b4e3aedf98c610bdea3"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "5375ebff39cbbeff084e431c62bdb2ef2383c6ef2af3526dcb1266dc4487c68e",
+                    "kind": "cover",
+                    "max": 490,
+                    "min": 490,
+                    "record": {
+                      "amount": 64,
+                      "category": 5,
+                      "cust_id": 300047,
+                      "day": 490,
+                      "id": 4475,
+                      "profile": "dashboard_sales",
+                      "region": 0,
+                      "score": 992073,
+                      "sensitivity": 0,
+                      "tenant": 3
+                    },
+                    "summary": {
+                      "3|0|0|5": [
+                        1,
+                        64,
+                        148881336278036448117117475782216063775
+                      ]
+                    },
+                    "summary_digest": "043f8619bd315ac1c7d060a7ced1cc0965fdcdf7c353913204a7608e1546ecbd"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "fe9bf1b278ce0192f0e7063ed32f8083246498b01b5ea98b0939a86066f13b26",
+                    "kind": "cover",
+                    "max": 490,
+                    "min": 490,
+                    "record": {
+                      "amount": 119,
+                      "category": 4,
+                      "cust_id": 500154,
+                      "day": 490,
+                      "id": 4742,
+                      "profile": "dashboard_sales",
+                      "region": 0,
+                      "score": 991091,
+                      "sensitivity": 1,
+                      "tenant": 5
+                    },
+                    "summary": {
+                      "5|1|0|4": [
+                        1,
+                        119,
+                        89196646191483485768552325648537381918
+                      ]
+                    },
+                    "summary_digest": "2e0acb7759be622ee32a218718cbe457134600d37ab0e1a4581bee20c302fda7"
+                  },
+                  {
+                    "count": 1,
+                    "hash": "15d7d259cf7ef01f6010aacff79e4054bd77b873ab94e3ed04a706a58d949b45",
+                    "kind": "hash",
+                    "max": 491,
+                    "min": 491
+                  },
+                  {
+                    "count": 1,
+                    "hash": "67a186f20322f8c8cda84365f7667e3b6ec69528d63a72b4abf1109058c8fbc1",
+                    "kind": "hash",
+                    "max": 491,
+                    "min": 491
+                  },
+                  {
+                    "count": 1,
+                    "hash": "99ff54fe41f857a4933ef105b91a125d9cd3c467410b4d6bc5c8e7a5448ce6aa",
+                    "kind": "hash",
+                    "max": 491,
+                    "min": 491
+                  },
+                  {
+                    "count": 1,
+                    "hash": "ac6d5edb05927272b2ce93d2faf6f24e590735628b0187912e0d89a6c9e6cde2",
+                    "kind": "hash",
+                    "max": 491,
+                    "min": 491
+                  }
+                ],
+                "count": 16,
+                "hash": "3897e3b8828e56a0eb1a88d526af8cb6ab60f3deedc3ea8ec606079128fb5bb3",
+                "kind": "branch",
+                "max": 491,
+                "min": 487,
+                "summary_digest": "e8711d70feae40c3fc125f70bb1c1d99f4cdbc5f10d8fc0a3498c8672791f9a9"
+              },
+              {
+                "count": 16,
+                "hash": "3d13b99afd8ea0cd6230531886972ba0432ca019487aad78a3ede82083399b02",
+                "kind": "hash",
+                "max": 493,
+                "min": 491
+              },
+              {
+                "count": 16,
+                "hash": "19c51f85b5e5edee19c0c7f9392baa50033fb118ef9c51db9efe2eebd3e22711",
+                "kind": "hash",
+                "max": 495,
+                "min": 493
+              },
+              {
+                "count": 16,
+                "hash": "eca12c0b091e6ae946df371ba91b4200613b721522eb475c37ae67524c291127",
+                "kind": "hash",
+                "max": 497,
+                "min": 495
+              }
+            ],
+            "count": 256,
+            "hash": "3fbf17cd85a2949567d9c79d42770cd5ca6a4bd25d7648c7449e5d8162767684",
+            "kind": "branch",
+            "max": 497,
+            "min": 450,
+            "summary_digest": "ebde498077e96a1d9482dd950ef64c98c231f30f51cee34440ab8aaa4b000b42"
+          },
+          {
+            "count": 256,
+            "hash": "224ef302b64780f1f9aff59c544296a6026518e80c9f737321f8888d56059a74",
+            "kind": "hash",
+            "max": 551,
+            "min": 497
+          },
+          {
+            "count": 256,
+            "hash": "369697145a6375c9c892f5340294ae4a0fb981f82ce1c5e4d7783752d376eecf",
+            "kind": "hash",
+            "max": 609,
+            "min": 552
+          },
+          {
+            "count": 256,
+            "hash": "23a10a981bc57dac1e270b231ed1bd4edf2fc6cc85f3ea7a51ae68b3c48ef6ae",
+            "kind": "hash",
+            "max": 656,
+            "min": 610
+          },
+          {
+            "count": 256,
+            "hash": "24e247e1e219f252efbc41b49a9ceb4f27827777093ca2b1fecbe3c5accd3a1c",
+            "kind": "hash",
+            "max": 709,
+            "min": 656
+          },
+          {
+            "count": 256,
+            "hash": "ae9d4a38e99d1310534ee26e73feb507c5993d08d275e01aa24ee4e9339acf15",
+            "kind": "hash",
+            "max": 764,
+            "min": 709
+          },
+          {
+            "count": 256,
+            "hash": "cbf3aa849e4cae781bcbbe532ac537122a9c00526fc0fc8566ad9b438aff706d",
+            "kind": "hash",
+            "max": 813,
+            "min": 764
+          }
+        ],
+        "count": 4096,
+        "hash": "3f5f4eed304e24e25a3500b8ea295eb69103f7bab67713e16b09ef7654932f2e",
+        "kind": "branch",
+        "max": 813,
+        "min": 0,
+        "summary_digest": "e40a34fa864ad7d5edae6279f03e7219adada01033bf6625ce70d9bc4b567d3e"
+      },
+      {
+        "count": 904,
+        "hash": "0e3272e65df545a4214b4aeae1957f625a293db8c6333c7a09a2bf1386919764",
+        "kind": "hash",
+        "max": 999,
+        "min": 813
+      }
+    ],
+    "count": 5000,
+    "hash": "d35fbf38a5bd78f823c38c008317d13cc128e974831d5f437f63c611148bf823",
+    "kind": "branch",
+    "max": 999,
+    "min": 0,
+    "summary_digest": "79b5a8e7d93c4d5ef0ec6c3711fdcb567ba6da81d50fc1d3ea4523c9ac17c832"
+  },
+  "purpose": "audit-c3",
+  "query": {
+    "aggregates": [
+      "count",
+      "sum(amount)"
+    ],
+    "group_by": "category",
+    "hi": 490,
+    "lo": 440,
+    "op": "range_groupby",
+    "policy_hash": "cd3d0e39563513425e7bdc80190e5dced23c0c106461d7d879a5857da52bd27c",
+    "purpose": "audit-c3",
+    "subject": "tenant-4"
+  },
+  "request_digest": "82b34af4b9a21a893441c4a233e5fee3f2ff822fcafdfc60509eaf77af4cb3d7",
+  "result": {
+    "0": [
+      8,
+      553
+    ],
+    "1": [
+      4,
+      440
+    ],
+    "2": [
+      3,
+      266
+    ],
+    "3": [
+      6,
+      695
+    ],
+    "4": [
+      5,
+      390
+    ],
+    "5": [
+      3,
+      260
+    ]
+  },
+  "root": "d35fbf38a5bd78f823c38c008317d13cc128e974831d5f437f63c611148bf823",
+  "root_descriptor": {
+    "count": 5000,
+    "fanout": 16,
+    "key_attr": "day",
+    "max": 999,
+    "min": 0,
+    "root": "d35fbf38a5bd78f823c38c008317d13cc128e974831d5f437f63c611148bf823",
+    "schema": {
+      "aggregate_null_policy": "SQL NOT NULL inputs; COUNT/SUM/AVG over committed integer amount",
+      "bag_semantics": "duplicate analytical values allowed; primary keys unique",
+      "dimension_null_policy": "Declared join/filter/group dimension attributes are SQL NOT NULL JSON integers",
+      "key_attr": "day",
+      "not_null_int": [
+        "id",
+        "tenant",
+        "region",
+        "category",
+        "day",
+        "amount",
+        "score",
+        "sensitivity",
+        "cust_id"
+      ],
+      "primary_key": "id",
+      "schema_version": 3,
+      "typed_extra_int": []
+    },
+    "version": 1
+  },
+  "scheme": "pacta-policy-aware-compact",
+  "subject": "tenant-4"
+}

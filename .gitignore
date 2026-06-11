@@ -1,0 +1,30 @@
+.venv/
+.codex_tools/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.reference_guard_cache/
+audit_previews/
+submission_ready_no_repo_v1/
+submission_ready_no_repo_v1.zip
+
+# LaTeX build products kept out of the artifact repository.
+main.aux
+main.bbl
+main.blg
+main.log
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.out
+*.toc
+*.xdv
+
+# Local credentials and private keys.
+.env
+.env.*
+*.pem
+*.key
+id_rsa*

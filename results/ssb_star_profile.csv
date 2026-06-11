@@ -1,0 +1,4 @@
+profile,n,lo,hi,certificate_bytes,server_generation_ms,client_verification_ms,groups
+ssb_star_lineorder_style,100000,10,40,10526,0.896627000031458,1.3374190000376984,6
+ssb_star_lineorder_style,100000,100,220,11562,0.8873729999550051,1.2828440000021146,6
+ssb_star_lineorder_style,100000,300,620,11971,0.9482749999847329,1.363376000028893,6

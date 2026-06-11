@@ -1,0 +1,11 @@
+n,operator,certificate_bytes,server_generation_ms,client_verification_ms,result_groups,opened_rows
+2000,derived_avg_groupby,31282,3.544103,2.14732,6,
+2000,groupby_having_sum,30915,3.500181,2.201055,0,
+2000,complete_range_projection,188653,23.619117,6.263548,,30
+2000,open_scan_amount_predicate,1488261,202.996883,40.8896675,4,279
+2000,count_distinct_customer,187929,24.285263,6.1324795000000005,6,30
+5000,derived_avg_groupby,74083,5.6865125,3.109408,6,
+5000,groupby_having_sum,73708,5.5492555,3.14702,0,
+5000,complete_range_projection,483020,90.918323,13.4400055,,62
+5000,open_scan_amount_predicate,4702960,943.654998,124.608678,5,705
+5000,count_distinct_customer,481122,86.295021,13.6932005,6,62

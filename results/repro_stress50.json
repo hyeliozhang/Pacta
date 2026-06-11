@@ -1,0 +1,23 @@
+{
+  "claim_guard": "stress run writes Pacta-only scalability rows; full paper-scale results are produced separately",
+  "fanout": 16,
+  "policy_complexities": [
+    1,
+    3,
+    5
+  ],
+  "public_profiles": [],
+  "scale": "stress",
+  "seed": 2027,
+  "selectivities": [
+    0.01,
+    0.05,
+    0.2
+  ],
+  "sizes": [],
+  "stress_sizes": [
+    20000,
+    50000
+  ],
+  "workload_profiles": []
+}

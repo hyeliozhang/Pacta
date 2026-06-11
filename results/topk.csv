@@ -1,0 +1,3 @@
+n,scheme,certificate_bytes,server_generation_ms,client_verification_ms,candidate_rows,k
+2000,pacta-topk-threshold,126943,16.643115,3.924733,20,20
+5000,pacta-topk-threshold,109969,26.358012000000002,3.504613,20,20

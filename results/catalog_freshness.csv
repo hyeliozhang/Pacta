@@ -1,0 +1,5 @@
+case,accepted
+fresh_signed_descriptor,True
+replayed_epoch,False
+tampered_manifest_version,False
+catalog_root_prefix,d2564ede84d93ebd

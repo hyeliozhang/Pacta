@@ -1,0 +1,10 @@
+scheme,certificate_bytes,client_verification_ms,server_generation_ms
+provenance_only,482.0,0.000793,0.611607
+policy_oblivious,56892.0,1.7244670000000002,2.25906
+pacta,58528.0,2.704279,4.83796
+adaptive_planner,58528.0,2.704279,4.83796
+range_tree,94272.0,2.5474995,2.81812
+tuple_merkle,190806.0,4.4839614999999995,38.930755
+tuple_frontier,247398.0,7.001981499999999,40.09877
+full_recompute,722496.0,0.463463,0.011301
+full_table_hash,722574.0,0.61906,0.03287
