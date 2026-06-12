@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
-"""ICDE-ready conceptual figures for the Pacta paper.
+"""Generate compact technical schematics for the Pacta paper.
 
-V33 treats the schematics as bounded technical paper figures rather than slide
-layouts: no in-figure titles, no legend cards, thin evidence lines, compact
-labels, and enough white space for IEEE single-column scaling.  Captions carry
-the prose; the figures encode only the checked flow and authenticated cover.
+The schematics are bounded paper figures rather than slide layouts: no
+in-figure titles, no legend cards, thin evidence lines, compact labels, and
+enough white space for IEEE single-column scaling. Captions carry the prose;
+the figures encode only the checked flow and authenticated cover.
 """
 from __future__ import annotations
 import os
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch, Rectangle, Circle
 
-STYLE_VERSION = "PACTA_CONCEPT_FIG_STYLE_V33_ICDE_READY"
+STYLE_VERSION = "PACTA_CONCEPT_FIG_STYLE_PUBLICATION"
 
 plt.rcParams.update({
     "pdf.use14corefonts": False,
@@ -185,4 +185,4 @@ def index_flow() -> None:
 if __name__ == "__main__":
     semantics()
     index_flow()
-    print("wrote V33 ICDE-ready conceptual figures")
+    print("wrote publication conceptual figures")

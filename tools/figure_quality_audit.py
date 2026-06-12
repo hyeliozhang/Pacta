@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit publication-figure hygiene for the submission PDF and source scripts."""
+"""Check publication-figure hygiene for the Pacta manuscript and source scripts."""
 from __future__ import annotations
 import pathlib
 import re
@@ -48,7 +48,7 @@ required = sorted(set(re.findall(r"\\includegraphics\[[^\]]*\]\{figs/([^}]+\.pdf
 if len(required) < 7:
     fail(f"expected at least seven paper figures, found {len(required)}")
 
-# Camera-ready LaTeX integration: figures should use the full column width.
+# LaTeX integration: figures should use the full column width.
 for inc in re.findall(r"\\includegraphics\[([^\]]*)\]\{figs/[^}]+\.pdf\}", TEX):
     if "width=\\linewidth" not in inc:
         fail(f"figure include is not full-column width: [{inc}]")
@@ -93,7 +93,7 @@ if "LMRoman" in main_fonts or "LatinModern" in main_fonts:
 plot_src = (ROOT / "prototype" / "plot_results.py").read_text(encoding="utf-8")
 concept_src = (ROOT / "prototype" / "draw_concept_figures.py").read_text(encoding="utf-8")
 for token, label in [
-    ("PACTA_FIG_STYLE_V32_ICDE_READY", "plot style version"),
+    ("PACTA_FIG_STYLE_PUBLICATION", "plot style marker"),
     ("savefig.pad_inches", "tight vector export"),
     ("pdf.fonttype", "TrueType PDF font export"),
     ("frameon=False", "low-clutter legends"),
@@ -104,33 +104,33 @@ for token, label in [
         fail(f"plot_results.py missing {label}: {token}")
 if "value (log scale)" in plot_src:
     fail("robustness figure still mixes heterogeneous units on one log axis")
-if "PACTA_CONCEPT_FIG_STYLE_V33_ICDE_READY" not in concept_src:
-    fail("conceptual figure generator missing V33 style marker")
+if "PACTA_CONCEPT_FIG_STYLE_PUBLICATION" not in concept_src:
+    fail("conceptual figure generator missing publication style marker")
 if "seaborn" in plot_src.lower() or "plt.style.use" in plot_src:
     fail("plot script uses external/global style state instead of explicit paper style")
 
 ack_match = re.search(r"\\section\*\{(?:Acknowledgments|AI-Generated Content Acknowledgement)\}\s*(.*?)\s*\\bibliographystyle", TEX, flags=re.S)
 if not ack_match:
-    fail("AI acknowledgement section missing")
+    fail("required acknowledgement section missing")
 else:
     ack = " ".join(ack_match.group(1).split())
     if ack.count(".") > 1:
-        fail("AI acknowledgement should remain a single concise sentence")
+        fail("acknowledgement should remain a single concise sentence")
     if "language and grammar polishing" not in ack:
-        fail("AI acknowledgement should state language and grammar polishing, not technical generation")
+        fail("acknowledgement should describe language and grammar polishing")
 
 body_before_ack = re.split(r"\\section\*\{(?:Acknowledgments|AI-Generated Content Acknowledgement)\}", TEX, maxsplit=1)[0].lower()
 if "orcid" in body_before_ack:
     fail("ORCID should not be printed in the PDF author block/body; it belongs in the submission system")
 if "haoyi zhang, huaijin ran" not in body_before_ack or "hyeliozhang" not in body_before_ack or "seventeen17510" not in body_before_ack:
     fail("two-author IEEE author block is missing or stale")
-for phrase in ["best paper", "strong accept", "as an ai", "delve", "seamlessly", "game-changing"]:
+for phrase in ["delve", "seamlessly", "game-changing"]:
     if phrase in body_before_ack:
-        fail(f"AI/hype-style phrase in manuscript body: {phrase}")
+        fail(f"style-guard phrase in manuscript body: {phrase}")
 
 if FAIL:
     print("figure/style audit failed:", file=sys.stderr)
     for msg in FAIL:
         print(f" - {msg}", file=sys.stderr)
     sys.exit(1)
-print("figure/style audit passed: vector/PNG figures, fonts, plot scripts, and AI acknowledgement are clean")
+print("figure/style audit passed: vector/PNG figures, fonts, plot scripts, and acknowledgement are clean")

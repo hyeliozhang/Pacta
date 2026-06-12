@@ -1,16 +1,22 @@
 Pacta artifact package
-=========================================
+======================
 
-This package contains the reproducibility artifact for "Pacta: Certifying Evidence Plans for Governed Analytical Queries".
+This repository contains the reproducibility artifact for "Pacta: Certifying Evidence Plans for Governed Analytical Queries".
+
+Start here:
+
+- README.md: repository overview, quick-start commands, and file map.
+- ARTIFACT_README.md: detailed reproduction instructions.
+- CLAIMS_TO_EVIDENCE.md: mapping from manuscript claims to artifact files.
+- main.pdf: compiled paper corresponding to the included LaTeX source.
 
 Top-level contents:
 
-- main.pdf: compiled paper.
 - main.tex, references.bib, IEEEtran.cls, IEEEtran.bst: paper source.
 - prototype/: implementation and experiment drivers.
 - prototype/pacta_core/: modular contract IR, optimizer, descriptor-only verifier, signed catalog, leakage contracts, page-cube, prefix-cube, measurement, and encoding components.
 - tests/: unit tests for core modules.
-- tools/submission_preflight.py, tools/results_consistency.py, tools/paper_audit.py, tools/layout_audit.py, and tools/obligation_coverage_audit.py: citation, PDF, font, log, page-structure, page-12 fill, section-structure, artifact-coverage, obligation-alignment, and numeric-consistency checks.
+- tools/: citation, PDF, font, log, page-structure, page-12 fill, section-structure, figure-quality, scalability, artifact-coverage, obligation-alignment, and numeric-consistency checks.
 - external_data/: bundled public CSV profiles with attribution.
 - results/: regenerated CSV outputs used by the paper.
 - figs/: generated vector figures.
@@ -20,10 +26,10 @@ Top-level contents:
 
 Quick check:
 
-    ./run_ci.sh
+    bash run_ci.sh
 
 Full reproduction:
 
-    ./run_all.sh
+    bash run_all.sh
 
 The artifact is CPU-only and does not require GPU, cloud services, paid APIs, blockchain infrastructure, or trusted hardware.

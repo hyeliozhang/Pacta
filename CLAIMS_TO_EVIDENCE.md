@@ -1,10 +1,10 @@
 # Claims to Evidence Map
 
-This file is the reviewer-facing map from the manuscript's strongest claims to reproducible artifact evidence. It is intentionally separate from the paper so reviewers can audit claims without searching the source tree.
+This file maps the manuscript's strongest claims to reproducible artifact evidence. It is intentionally separate from the paper so each claim can be checked directly against source files, result tables, and scripts.
 
 | Manuscript claim | Evidence in package | What to check |
 |---|---|---|
-| Pacta compact certificates are efficient in the full-baseline matrix: 31.4 KiB median size, 3.64 ms generation, and 1.98 ms verification | `results/scheme_medians.csv`; `tools/results_consistency.py`; Table V in `main.tex` | Run `./run_ci.sh`; the numeric guard recomputes the 31.4 KiB anchor from CSVs and fails on drift. |
+| Pacta compact certificates are efficient in the full-baseline matrix: 31.4 KiB median size, 3.64 ms generation, and 1.98 ms verification | `results/scheme_medians.csv`; `tools/results_consistency.py`; Table V in `main.tex` | Run `bash run_ci.sh`; the numeric guard recomputes the 31.4 KiB anchor from CSVs and fails on drift. |
 | Compactness alone is not correctness | `results/detection.csv`; `prototype/pacta_core/optimizer.py`; `tests/test_optimizer_properties.py` | Provenance-only and policy-oblivious cases are intentionally present as negative controls. |
 | The optimizer exposes a 59x legality frontier between sound compact summaries and opened evidence | `results/planner_frontier_medians.csv`; `results/optimizer_trace.csv`; `figs/planner_legality_frontier.pdf`; `tools/results_consistency.py` | Check that the compact plan is selected for ordinary governed group-by and rejected for unsummarized row predicates. |
 | Range-boundary relabeling is rejected by descriptor binding | `results/detection.csv`; `prototype/pacta.py`; adversarial mutation path in `pacta.run_tests()` | The range-boundary relabeling negative control mutates interval metadata and must fail verification. |

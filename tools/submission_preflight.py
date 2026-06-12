@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Submission preflight checks for the Pacta artifact.
+"""Artifact preflight checks for the Pacta repository.
 
 The script is intentionally conservative: it checks citations, obvious stale
 package labels, LaTeX log failures, PDF page structure, and embedded-font hygiene
@@ -34,9 +34,9 @@ def check_output_text(cmd: list[str]) -> str:
     )
 
 
-# Remove Python bytecode caches before scanning the final package. The tests
-# intentionally import the artifact, and these caches are not submission
-# content. The subsequent scan still fails if any cache remains.
+# Remove Python bytecode caches before scanning the artifact package. The tests
+# intentionally import the artifact, and these caches are not package content.
+# The subsequent scan still fails if any cache remains.
 for cache_dir in list(ROOT.rglob("__pycache__")):
     if cache_dir.relative_to(ROOT).parts[0] in LOCAL_ENV_DIRS:
         continue
@@ -86,7 +86,7 @@ for path in ROOT.rglob("*"):
             fail(f"stale version label in {rel}")
         upper = path.name.upper()
         if path.parent == ROOT and ("REVIEW" in upper or "ROUND" in upper):
-            fail(f"internal review/draft report remains in final package: {path.name}")
+            fail(f"draft report remains in artifact package: {path.name}")
 
 if LOG.exists():
     log = LOG.read_text(encoding="utf-8", errors="ignore")
@@ -141,8 +141,8 @@ if PDF.exists():
             page13 = fitz_doc[12].get_text("text")
         else:
             page13 = ""
-        # IEEEtran small caps can be extracted as spaced letters, e.g.
-        # "AI-G ENERATED C ONTENT ACKNOWLEDGMENT" and "R EFERENCES".
+        # IEEEtran small caps can be extracted as spaced letters, including
+        # acknowledgement headings and "R EFERENCES".
         compact13 = re.sub(r"[^a-z]", "", page13.lower())
         starts_with_ack = compact13.startswith("acknowledg") or compact13.startswith("aigeneratedcontentacknowledg")
         starts_with_refs = compact13.startswith("references")

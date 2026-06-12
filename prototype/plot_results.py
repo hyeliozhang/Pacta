@@ -15,7 +15,7 @@ try:
 except Exception:
     sample_certificates = None  # type: ignore
 
-STYLE_VERSION = "PACTA_FIG_STYLE_V32_ICDE_READY"
+STYLE_VERSION = "PACTA_FIG_STYLE_PUBLICATION"
 
 plt.rcParams.update({
     "pdf.use14corefonts": False,

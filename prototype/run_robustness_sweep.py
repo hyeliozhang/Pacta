@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Multi-seed robustness checks for the final Pacta package.
+"""Multi-seed robustness checks for the Pacta artifact.
 
 This is an anti-cherry-picking sweep: it uses seeds that are not used by the
 headline matrix, varies workload profile, selectivity, and policy complexity,

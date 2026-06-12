@@ -2,20 +2,18 @@
 
 This document ties the paper claims to reproducible artifact outputs. Paper prose avoids project-path dependencies; paths here are for reviewers inspecting the supplemental package.
 
-- Final polish updates the title author block to two ICDE-style authors with shared affiliation and compact email line, removes the ORCID line from the PDF author block, deduplicates the AI acknowledgement, and regenerates the two schematic figures with larger labels and a stricter single-column camera-ready layout.
-
 ## Reproduction commands
 
 Quick check:
 
 ```bash
-./run_ci.sh
+bash run_ci.sh
 ```
 
 Full reproduction:
 
 ```bash
-./run_all.sh
+bash run_all.sh
 ```
 
 ## Paper claims and artifact files
@@ -55,9 +53,9 @@ Full reproduction:
 
 The integrated suite checks aggregate tampering, stale/wrong version, policy filter widening, manifest tampering, projection mask tampering, request substitution, query range mutation, root descriptor tampering, omitted in-range tuple, count-distinct omission, anti-join hidden match, open-scan predicate mutation, open-scan omission, top-k predicate substitution, top-k omission, returned-pair join tampering, complete FK join omission, complete many-to-many tag omission, disclosure-contract violation, range-boundary relabeling, post-update certificates, and structural-version rebuilding.
 
-## Submission preflight
+## Artifact preflight
 
-`tools/submission_preflight.py` checks that there is no `\nocite` padding, all bibliography entries are cited, the paper has 76 real cited references, the LaTeX log has no errors/undefined citations/overfull hboxes, the PDF has 14 pages with acknowledgement/references starting on page 13, fonts are embedded, and reviewer-facing documentation has no obsolete version labels and no stale nested package directories.
+`tools/submission_preflight.py` checks that there is no `\nocite` padding, all bibliography entries are cited, the paper has 76 cited references, the LaTeX log has no errors/undefined citations/overfull hboxes, the PDF has 14 pages with acknowledgement/references starting on page 13, fonts are embedded, and documentation has no obsolete version labels or stale nested package directories.
 
 ## Numeric consistency guard
 
@@ -69,9 +67,9 @@ The integrated suite checks aggregate tampering, stale/wrong version, policy fil
 
 - It adds a prefix-cube verifier regression guard: prefix-view certificates must be checked against the expected committed view root and strict numeric range/index fields, so a self-consistent but uncommitted prefix tree fails closed.
 
-- It fixes the LaTeX/preflight blind spot: the final build log has no TeX `!` error markers, and `tools/submission_preflight.py` now fails on any top-level TeX error line.
+- The LaTeX preflight checks top-level TeX `!` error markers in `main.log`, so malformed builds are rejected by CI.
 
 - It adds scale-path verifier hardening: page-cube certificates now reject compact covers whose descriptor interval is not contained in the requested range, enforce strict integer parsing on page-cube query/descriptor/result/node fields, and prefix-cube Merkle paths are bound to the claimed prefix index and committed view length. Regression coverage is in `tests/test_page_index.py` and `tests/test_catalog_leakage_prefix.py`.
 - It adds certificate-encoding hardening: verifier-visible node metadata, leaf-path metadata, result cells, and committed row fields used in certificate checks reject ambiguous boolean/float/null encodings. Regression coverage is in `tests/test_certificate_encoding.py`.
 
-- The artifact performs a figure-specific production pass: all manuscript figures are regenerated from Python with a consistent publication style, vector PDF/PNG exports, embedded non-base fonts, a CI figure/style audit, and a visual full-PDF render check.
+- Manuscript figures are regenerated from Python with a consistent publication style, vector PDF/PNG exports, embedded non-base fonts, a CI figure/style audit, and a full-PDF render check.

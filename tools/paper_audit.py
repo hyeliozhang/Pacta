@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Structural audit for the Pacta submission package.
+"""Structural audit for the Pacta artifact package.
 
 This guard is deliberately different from results_consistency.py and
-submission_preflight.py.  It checks reviewer-facing polish: compact conference
-structure, no stale package labels, no old internal review reports in the
-supplement, main-body punctuation before the non-counted acknowledgement page,
-figure availability, and a claims-to-evidence map tying paper claims to artifact
-files.
+submission_preflight.py. It checks compact conference structure, stale package
+labels, draft byproducts, main-body punctuation before the non-counted
+acknowledgement page, figure availability, and a claims-to-evidence map tying
+paper claims to artifact files.
 """
 from __future__ import annotations
 
@@ -185,31 +184,31 @@ try:
 except Exception as exc:
     fail(f"unit-test-count audit failed: {exc}")
 
-# Reviewer-facing package should not include old internal review reports.
+# The artifact package should not include old draft reports.
 for pattern in ["*V17*.md", "*V18*.md", "*V19*.md", "*V20*.md", "*V21*.md", "*V22*.md", "*V23*.md", "*V24*.md", "*V25*.md", "*V26*.md", "*V27*.md", "*V28*.md", "*V29*.md", "*V30*.md", "STRICT_REVIEW*.md", "DEEP_REVIEW*.md", "REVIEW_AND_FIX_REPORT.md"]:
     for path in ROOT.glob(pattern):
-        fail(f"old/internal review artifact should not be in final supplement: {path.name}")
+        fail(f"draft artifact should not be in artifact package: {path.name}")
 
 
-# Final package should not contain stale nested submission directories or Python caches.
+# Artifact package should not contain stale nested package directories or Python caches.
 cleanup_pycache()
 for path in ROOT.rglob("*"):
     rel = path.relative_to(ROOT)
     if rel.parts and rel.parts[0] in LOCAL_ENV_DIRS:
         continue
     if "__pycache__" in path.parts:
-        fail(f"Python cache directory/file present in final package: {rel}")
+        fail(f"Python cache directory/file present in artifact package: {rel}")
     if path.is_dir() and re.search(r"pacta_v(17|18|19|20|21|22|23|24|25|26|27|28|29|30)$", path.name, flags=re.IGNORECASE):
-        fail(f"stale nested package directory present in final package: {rel}")
+        fail(f"stale nested package directory present in artifact package: {rel}")
 
-# Reviewer-facing docs should not include acceptance/hype labels.
-for name in ["README.txt", "ARTIFACT_README.md", "EVIDENCE.md", "STATUS.md", "FORMAT_CHECK.md", "SUPPLEMENTAL_SUBMISSION.md", "SCOPE_GUARD.md", "CLAIMS_TO_EVIDENCE.md"]:
+# Public docs should not include acceptance or promotional labels.
+for name in ["README.md", "README.txt", "ARTIFACT_README.md", "EVIDENCE.md", "STATUS.md", "FORMAT_CHECK.md", "SUPPLEMENTAL_SUBMISSION.md", "SCOPE_GUARD.md", "CLAIMS_TO_EVIDENCE.md"]:
     path = ROOT / name
     if path.exists():
         text = read(path).lower()
-        for hype in ["best-paper", "best paper", "strong accept"]:
+        for hype in ["game-changing", "breakthrough"]:
             if hype in text:
-                fail(f"reviewer-facing hype label '{hype}' remains in {name}")
+                fail(f"promotional label '{hype}' remains in {name}")
 
 # Active documentation should not refer to older package versions.
 stale_re = re.compile(r"\b[Vv](17|18|19|20|21|22|23|24|25|26|27|28|29|30)\b")
@@ -242,9 +241,9 @@ if pdf.exists():
             with fitz.open(pdf) as doc:
                 pages = doc.page_count
         if pages < 13:
-            fail(f"expected at least 13 PDF pages after final compile: 12 body pages plus acknowledgement/references, got {pages}")
+            fail(f"expected at least 13 PDF pages after manuscript build: 12 body pages plus acknowledgement/references, got {pages}")
         if pages > 18:
-            fail(f"unexpectedly long PDF after final compile; non-counted material should remain compact, got {pages}")
+            fail(f"unexpectedly long PDF after manuscript build; non-counted material should remain compact, got {pages}")
     except Exception as exc:
         fail(f"pdfinfo audit failed: {exc}")
 else:

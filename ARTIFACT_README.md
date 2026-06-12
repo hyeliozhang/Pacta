@@ -5,7 +5,7 @@ This supplemental artifact accompanies the paper **"Pacta: Certifying Evidence P
 ## Contents
 
 - Paper source: `main.tex`, `references.bib`, `IEEEtran.cls`, `IEEEtran.bst`.
-- Final PDF: `main.pdf`.
+- Compiled manuscript: `main.pdf`.
 - Prototype: `prototype/pacta.py` plus the modular `prototype/pacta_core/` package.
 - Experiments and figures: `run_all.sh`, `run_ci.sh`, `prototype/plot_results.py`, result CSVs, and vector figures.
 - Tests: `tests/` plus the integrated semantic/adversarial test suite.
@@ -17,20 +17,29 @@ This supplemental artifact accompanies the paper **"Pacta: Certifying Evidence P
 Run:
 
 ```bash
-./run_ci.sh
+bash run_ci.sh
 ```
 
-Expected outcome: the integrated Pacta semantic/adversarial suite passes, 38 unit tests pass, the submission preflight reports citation/PDF/font/log checks as OK, the paper-audit and layout-audit guards confirm the intended page/section structure and page-12 body fill, the results-consistency guard confirms that manuscript numeric anchors match the bundled CSVs, and the figure-quality guard confirms vector/PNG exports, fonts, plot scripts, and the AI acknowledgement.
+Expected outcome: the integrated Pacta semantic/adversarial suite passes, 38 unit tests pass, the manuscript/package preflight reports citation/PDF/font/log checks as OK, the structure and layout guards confirm the intended page/section structure and page-12 body fill, the results-consistency guard confirms that manuscript numeric anchors match the bundled CSVs, and the figure-quality guard confirms vector/PNG exports, fonts, and plot scripts.
 
 ## Full reproduction
 
 Run:
 
 ```bash
-./run_all.sh
+bash run_all.sh
 ```
 
-This executes the paper-scale matrix, stress experiments, page-cube trend, signed catalog/leakage/prefix-cube/star-schema experiments, multi-seed robustness sweep, tests, figure generation, LaTeX build, and final preflight. The script is portable: it uses `${PYTHON:-python3}` and does not rely on container-specific Python paths.
+This executes the paper-scale matrix, stress experiments, page-cube trend, signed catalog/leakage/prefix-cube/star-schema experiments, multi-seed robustness sweep, tests, figure generation, LaTeX build, and the same preflight checks. The script is portable: it uses `${PYTHON:-python3}` and does not rely on container-specific Python paths.
+
+## Container option
+
+```bash
+docker build -t pacta-artifact .
+docker run --rm pacta-artifact
+```
+
+The Docker image runs `run_all.sh` by default. The accompanying `.dockerignore` keeps local environments, build byproducts, credentials, and local archives outside the build context.
 
 ## Main modules
 
@@ -53,6 +62,6 @@ This executes the paper-scale matrix, stress experiments, page-cube trend, signe
 - `results/repro.json` records deterministic reproduction settings without a wall-clock timestamp.
 - The artifact does not require GPU, cloud services, a blockchain network, trusted hardware, or external paid services.
 
-## Submission hygiene
+## Validation scope
 
-The final manuscript has 76 real cited references with no padding citations. The quick check includes submission preflight for bibliography integrity, PDF page structure, embedded fonts, LaTeX log errors, stale package labels, section/page audit, page-12 layout fill, artifact coverage, obligation-coverage alignment, and a CSV-to-manuscript numeric consistency guard.
+The manuscript has 76 cited references with no bibliography padding. The quick check includes bibliography integrity, PDF page structure, embedded fonts, LaTeX log errors, stale package labels, section/page structure, page-12 layout fill, artifact coverage, obligation-coverage alignment, and a CSV-to-manuscript numeric consistency guard.

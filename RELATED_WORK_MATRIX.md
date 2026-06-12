@@ -1,6 +1,6 @@
 # Related Work Matrix
 
-This matrix records how the draft positions Pacta against database, systems, provenance, and security-adjacent literature. The final manuscript should keep the center of gravity in data engineering venues and use cryptography references sparingly as mechanisms.
+This matrix records how Pacta is positioned against database, systems, provenance, and security-adjacent literature. The center of gravity is data engineering: governed query-result verification, authenticated physical design, and evidence-plan optimization.
 
 ## Authenticated query processing and outsourced databases
 
@@ -63,7 +63,7 @@ This matrix records how the draft positions Pacta against database, systems, pro
 | B-tree and column-store systems | Database systems | Physical design lineage | Pacta points to page-oriented future implementation. |
 | Dremel/SparkSQL | VLDB/SIGMOD | Analytical execution context | Pacta prototype is lightweight, not a distributed engine. |
 
-## Paper positioning reminders
+## Positioning summary
 
 - Lead with query result verification semantics and storage/index design.
 - Use "policy-governed effective query" consistently.

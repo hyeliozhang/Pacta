@@ -38,4 +38,4 @@ $PY tools/efficiency_scalability_audit.py
 $PY tools/figure_quality_audit.py
 $PY tools/obligation_coverage_audit.py
 cleanup_pycache
-echo 'quick artifact and submission preflight passed'
+echo 'quick artifact checks passed'

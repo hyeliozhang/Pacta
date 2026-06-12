@@ -3399,7 +3399,7 @@ def detection_trials(tree: MerkleAggregateTree, rows: Sequence[JSON], policy: Po
 def timed(fn, *args, repeat: int = 1, **kwargs) -> Tuple[Any, float]:
     """Return the result and the median wall-clock time in milliseconds.
 
-    The final artifact avoids best-of-repeat timing because it can make numbers
+    The artifact avoids best-of-repeat timing because it can make numbers
     look tuned to lucky cache or scheduler events.  Median timing is the default
     for all regenerated paper measurements.
     """
